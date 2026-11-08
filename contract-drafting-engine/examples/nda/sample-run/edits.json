@@ -1,0 +1,3195 @@
+{
+ "results": [
+  {
+   "title": "Cover page",
+   "edits": [
+    {
+     "kind": "modify",
+     "para": "p2",
+     "old_text": "THIS AGREEMENT is dated [•]",
+     "new_text": "THIS AGREEMENT is dated [•]",
+     "reason": "",
+     "termsheet_quote": ""
+    },
+    {
+     "kind": "modify",
+     "para": "p4",
+     "old_text": "(1) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"First Party\"); and",
+     "new_text": "(1) Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567 whose registered office is at 10 Example Street, Exampletown XX1 1XX (the \"First Party\"); and",
+     "reason": "",
+     "termsheet_quote": "Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH"
+    },
+    {
+     "kind": "modify",
+     "para": "p5",
+     "old_text": "(2) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"Second Party\").",
+     "new_text": "(2) Bluefield Robotics GmbH, a company incorporated in Germany with company number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\").",
+     "reason": "",
+     "termsheet_quote": "Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin."
+    },
+    {
+     "kind": "modify",
+     "para": "p5",
+     "old_text": "(2) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"Second Party\").",
+     "new_text": "(2) Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\").",
+     "reason": "",
+     "termsheet_quote": "Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin."
+    }
+   ],
+   "paragraphs": {
+    "changed": [
+     [
+      "(1) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"First Party\"); and",
+      "(1) Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567 whose registered office is at 10 Example Street, Exampletown XX1 1XX (the \"First Party\"); and"
+     ],
+     [
+      "(2) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"Second Party\").",
+      "(2) Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\")."
+     ]
+    ],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [
+     0,
+     0
+    ],
+    "changed_context": [
+     [
+      "BETWEEN:",
+      0
+     ],
+     [
+      "(1) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"First Party\"); and",
+      0
+     ]
+    ],
+    "deleted_context": [],
+    "inserted": [],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [],
+    "insert_ranks": [],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [],
+     "r": [],
+     "t": []
+    },
+    "notes": [
+     [
+      "(1) Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567 whose registered office is at 10 Example Street, Exampletown XX1 1XX (the \"First Party\"); and",
+      ""
+     ],
+     [
+      "(2) Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\").",
+      ""
+     ]
+    ],
+    "first": "MUTUAL NON-DISCLOSURE AGREEMENT"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The Second Party’s particulars now use “registration number” as stated in the term sheet. No point remains open from this correction.",
+   "rules_accounted": [
+    {
+     "rule": "The parties are named as the term sheet names them",
+     "where": "p5 now reads exactly as specified, including “registration number HRB 987654”.",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it",
+     "where": "p5 now reads exactly as specified, including the full name, registration number and registered office.",
+     "status": "done"
+    }
+   ],
+   "fix_accounted": [
+    {
+     "rule": "The parties are named as the term sheet names them",
+     "where": "p5 now reads exactly as specified, including “registration number HRB 987654”.",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it",
+     "where": "p5 now reads exactly as specified, including the full name, registration number and registered office.",
+     "status": "done"
+    }
+   ],
+   "rule_check": [
+    {
+     "rule": "The parties are named as the term sheet names them",
+     "met": "no",
+     "fault": "p5 must say: (2) Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\").",
+     "breaks": "The parties are named as the term sheet names them, each with its company number and\n  registered office where the term sheet gives them; a missing number is `[•]` with one open\n  point.",
+     "reads": "(2) Bluefield Robotics GmbH, a company incorporated in Germany with company number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\")."
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it",
+     "met": "no",
+     "fault": "p5 must say: (2) Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\").",
+     "breaks": "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+     "reads": "(2) Bluefield Robotics GmbH, a company incorporated in Germany with company number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\")."
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [
+     {
+      "id": "p2",
+      "text": "THIS AGREEMENT is dated [•]"
+     }
+    ],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "cells": null,
+      "inserted": null,
+      "original": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "THIS AGREEMENT is dated [•]",
+      "cells": null,
+      "inserted": null,
+      "original": "THIS AGREEMENT is dated [•]",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p3",
+      "text": "BETWEEN:",
+      "cells": null,
+      "inserted": null,
+      "original": "BETWEEN:",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p4",
+      "text": "(1) Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567 whose registered office is at 10 Example Street, Exampletown XX1 1XX (the \"First Party\"); and",
+      "cells": null,
+      "inserted": null,
+      "original": "(1) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"First Party\"); and",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p5",
+      "text": "(2) Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654 whose registered office is at Musterstrasse 5, 10115 Berlin (the \"Second Party\").",
+      "cells": null,
+      "inserted": null,
+      "original": "(2) [•], a company incorporated in [•] with company number [•] whose registered office is at [•] (the \"Second Party\").",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 0,
+    "struck_after": {},
+    "task": "YOUR PIECE: Cover page.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - The parties are named as the term sheet names them, each with its company number and\n  registered office where the term sheet gives them; a missing number is `[•]` with one open\n  point.\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE (search_record finds a term elsewhere in the term sheet):\n\n[0] Preamble\nHeads of Terms: Mutual Confidentiality Agreement\nThese heads of terms are not legally binding, except for paragraph 9.\n\n[1] 1. Parties\n1. Parties\nNorthwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin.\nTHIS PIECE WRITES, where the playbook writes it at all: First Party: Northwind Analytics Limited, incorporated in England and Wales, company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; Second Party: Bluefield Robotics GmbH, incorporated in Germany, registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin. Where the base document already provides for a term, its words stand; a term the playbook spends or keeps out is not written.\nWRITTEN BY ANOTHER PIECE, never here (change only what your own words must for it): First Party signatory: Northwind Analytics Limited (Execution page); Second Party signatory: Bluefield Robotics GmbH (Execution page).\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 42
+  },
+  {
+   "title": "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)",
+   "edits": [
+    {
+     "kind": "modify",
+     "para": "p6",
+     "old_text": "technical information, know-how and source code;",
+     "new_text": "technical information, know-how and source code; and",
+     "reason": "",
+     "termsheet_quote": ""
+    },
+    {
+     "kind": "modify",
+     "para": "p5",
+     "old_text": "business plans, customer lists and pricing; and",
+     "new_text": "business plans, customer lists and pricing;",
+     "reason": "",
+     "termsheet_quote": ""
+    },
+    {
+     "kind": "insert",
+     "old_text": "technical information, know-how and source code;",
+     "new_text": "product roadmaps and test data.",
+     "paragraphs": [
+      "product roadmaps and test data."
+     ],
+     "reason": "Confidential Information also includes product roadmaps and test data.",
+     "termsheet_quote": "Confidential Information also includes product roadmaps and test data."
+    },
+    {
+     "kind": "modify",
+     "para": "n1",
+     "old_text": "",
+     "new_text": "product roadmaps and test data.",
+     "reason": "",
+     "termsheet_quote": "",
+     "like": "technical information, know-how and source code;"
+    },
+    {
+     "kind": "modify",
+     "para": "p7",
+     "old_text": "\"Purpose\" means [•]; and",
+     "new_text": "\"Purpose\" means evaluating a possible joint development of warehouse picking software; and",
+     "reason": "",
+     "termsheet_quote": "Evaluating a possible joint development of warehouse picking software."
+    }
+   ],
+   "paragraphs": {
+    "changed": [
+     [
+      "business plans, customer lists and pricing; and",
+      "business plans, customer lists and pricing;"
+     ],
+     [
+      "technical information, know-how and source code;",
+      "technical information, know-how and source code; and"
+     ],
+     [
+      "\"Purpose\" means [•]; and",
+      "\"Purpose\" means evaluating a possible joint development of warehouse picking software; and"
+     ]
+    ],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [
+     0,
+     0,
+     0
+    ],
+    "changed_context": [
+     [
+      "\"Confidential Information\" means all information of whatever nature disclosed by one party to the other in connection with the Purpose, whether before or after the date of this Agreement, including:",
+      0
+     ],
+     [
+      "business plans, customer lists and pricing; and",
+      0
+     ],
+     [
+      "technical information, know-how and source code;",
+      0
+     ]
+    ],
+    "deleted_context": [],
+    "inserted": [
+     [
+      "technical information, know-how and source code;",
+      [
+       "product roadmaps and test data."
+      ],
+      [
+       {
+        "like": "technical information, know-how and source code;"
+       }
+      ]
+     ]
+    ],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [
+     [
+      "p",
+      0
+     ]
+    ],
+    "insert_ranks": [
+     0
+    ],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [
+      [
+       "business plans, customer lists and pricing; and",
+       0
+      ]
+     ],
+     "r": [],
+     "t": []
+    },
+    "notes": [
+     [
+      "business plans, customer lists and pricing;",
+      ""
+     ],
+     [
+      "technical information, know-how and source code; and",
+      ""
+     ],
+     [
+      "product roadmaps and test data.",
+      "Confidential Information also includes product roadmaps and test data. | term sheet: \"Confidential Information also includes product roadmaps and test data.\""
+     ],
+     [
+      "\"Purpose\" means evaluating a possible joint development of warehouse picking software; and",
+      ""
+     ]
+    ],
+    "first": "Definitions"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The definitions now state the agreed Purpose and include product roadmaps and test data in Confidential Information. No points remain open in this piece.",
+   "rules_accounted": [
+    {
+     "rule": "Purpose is the term sheet's purpose",
+     "where": "p7",
+     "status": "done"
+    },
+    {
+     "rule": "Confidential Information keeps the template's list",
+     "where": "p4, p5, p6, n1",
+     "status": "done"
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract",
+     "where": "p7, n1; permitted recipients belong to another piece.",
+     "status": "done"
+    },
+    {
+     "rule": "The base document's words stand",
+     "where": "p1–p8, n1; only the necessary list punctuation and stated terms changed.",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written",
+     "where": "No housekeeping appears in p1–p8 or n1.",
+     "status": "done"
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "where": "p3, p4, p7, p8; no new defined term is needed.",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full",
+     "where": "Party identification belongs elsewhere in the agreement.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "No figures arise in these definitions.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "where": "No dates arise in these definitions.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "where": "p7",
+     "status": "done"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "where": "No such provision occurs in this piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "There is no missing value or unresolved question in this piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "where": "The Purpose was a bracketed blank; the added information is a new list limb, not a departure from a settled value.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "where": "No conflicting terms arise for these definitions.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's",
+     "where": "Governing law and jurisdiction belong to another piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause",
+     "where": "No new cross-reference was written.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "p4 refers to disclosure by one party to the other; no one-way modification is needed.",
+     "status": "done"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "\"Purpose\" is the term sheet's purpose, in its words, never widened.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "\"Confidential Information\" keeps the template's list; a category the term sheet adds is one more limb, in the template's style.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself, neither version is chosen",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Definitions",
+      "cells": null,
+      "inserted": null,
+      "original": "Definitions",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "In this Agreement:",
+      "cells": null,
+      "inserted": null,
+      "original": "In this Agreement:",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p3",
+      "text": "\"Affiliate\" means, in relation to a party, any entity that controls, is controlled by or is under common control with that party;",
+      "cells": null,
+      "inserted": null,
+      "original": "\"Affiliate\" means, in relation to a party, any entity that controls, is controlled by or is under common control with that party;",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p4",
+      "text": "\"Confidential Information\" means all information of whatever nature disclosed by one party to the other in connection with the Purpose, whether before or after the date of this Agreement, including:",
+      "cells": null,
+      "inserted": null,
+      "original": "\"Confidential Information\" means all information of whatever nature disclosed by one party to the other in connection with the Purpose, whether before or after the date of this Agreement, including:",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p5",
+      "text": "business plans, customer lists and pricing;",
+      "cells": null,
+      "inserted": null,
+      "original": "business plans, customer lists and pricing; and",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p6",
+      "text": "technical information, know-how and source code; and",
+      "cells": null,
+      "inserted": null,
+      "original": "technical information, know-how and source code;",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "n1",
+      "text": "product roadmaps and test data.",
+      "cells": null,
+      "inserted": [
+       2,
+       0
+      ],
+      "original": "",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "technical information, know-how and source code;",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "technical information, know-how and source code;",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p7",
+      "text": "\"Purpose\" means evaluating a possible joint development of warehouse picking software; and",
+      "cells": null,
+      "inserted": null,
+      "original": "\"Purpose\" means [•]; and",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p8",
+      "text": "\"Representatives\" means a party's Affiliates and its and their officers, employees and professional advisers.",
+      "cells": null,
+      "inserted": null,
+      "original": "\"Representatives\" means a party's Affiliates and its and their officers, employees and professional advisers.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 1,
+    "struck_after": {},
+    "task": "YOUR PIECE: Definitions: \"Affiliate\" to \"Representatives\" (4 definitions).\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - \"Purpose\" is the term sheet's purpose, in its words, never widened.\n- \"Confidential Information\" keeps the template's list; a category the term sheet adds is one\n  more limb, in the template's style.\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE (search_record finds a term elsewhere in the term sheet):\n\n[2] 2. Purpose\n2. Purpose\nEvaluating a possible joint development of warehouse picking software.\nTHIS PIECE WRITES, where the playbook writes it at all: Purpose: evaluating a possible joint development of warehouse picking software. Where the base document already provides for a term, its words stand; a term the playbook spends or keeps out is not written.\n\n[3] 3. Additional Confidential Information\n3. Additional Confidential Information\nConfidential Information also includes product roadmaps and test data.\nTHIS PIECE WRITES, where the playbook writes it at all: Product roadmaps included in Confidential Information; Test data included in Confidential Information. Where the base document already provides for a term, its words stand; a term the playbook spends or keeps out is not written.\n\n[5] 5. Permitted recipients\n5. Permitted recipients\nEach party may also disclose to its actual or prospective funders, on the same terms.\nWRITTEN BY ANOTHER PIECE, never here (change only what your own words must for it): Each party may disclose to actual or prospective funders, on the same terms (Confidentiality Obligations).\n\n[9] 9. Confidentiality of these heads of terms\n9. Confidentiality of these heads of terms\nThese heads of terms are themselves confidential.\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 33
+  },
+  {
+   "title": "Confidentiality Obligations",
+   "edits": [
+    {
+     "kind": "modify",
+     "para": "p4",
+     "old_text": "Each party shall protect the other party's Confidential Information with [at least the same degree of care it uses for its own confidential information][reasonable care].",
+     "new_text": "Each party shall protect the other party's Confidential Information with reasonable care.",
+     "reason": "",
+     "termsheet_quote": "Reasonable care."
+    },
+    {
+     "kind": "insert",
+     "old_text": "Each party may disclose the other party's Confidential Information to its Representatives who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+     "new_text": "Each party may also disclose the other party's Confidential Information to its actual or prospective funders who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+     "paragraphs": [
+      "Each party may also disclose the other party's Confidential Information to its actual or prospective funders who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement."
+     ],
+     "reason": "Actual or prospective funders may receive Confidential Information on the same terms as Representatives.",
+     "termsheet_quote": "Each party may also disclose to its actual or prospective funders, on the same terms."
+    }
+   ],
+   "paragraphs": {
+    "changed": [
+     [
+      "Each party shall protect the other party's Confidential Information with [at least the same degree of care it uses for its own confidential information][reasonable care].",
+      "Each party shall protect the other party's Confidential Information with reasonable care."
+     ]
+    ],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [
+     0
+    ],
+    "changed_context": [
+     [
+      "Each party may disclose the other party's Confidential Information to its Representatives who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+      0
+     ]
+    ],
+    "deleted_context": [],
+    "inserted": [
+     [
+      "Each party may disclose the other party's Confidential Information to its Representatives who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+      [
+       "Each party may also disclose the other party's Confidential Information to its actual or prospective funders who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement."
+      ],
+      [
+       false
+      ]
+     ]
+    ],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [
+     [
+      "p",
+      0
+     ]
+    ],
+    "insert_ranks": [
+     0
+    ],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [
+      [
+       "Each party shall keep the other party's Confidential Information confidential and shall use it only for the Purpose.",
+       0
+      ]
+     ],
+     "r": [],
+     "t": []
+    },
+    "notes": [
+     [
+      "Each party may also disclose the other party's Confidential Information to its actual or prospective funders who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+      "Actual or prospective funders may receive Confidential Information on the same terms as Representatives. | term sheet: \"Each party may also disclose to its actual or prospective funders, on the same terms.\""
+     ],
+     [
+      "Each party shall protect the other party's Confidential Information with reasonable care.",
+      ""
+     ]
+    ],
+    "first": "Confidentiality Obligations"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The clause now permits disclosure to actual or prospective funders on the same terms as disclosure to Representatives and specifies reasonable care. No points remain open.",
+   "rules_accounted": [
+    {
+     "rule": "The standard of care is the template's unless the term sheet sets another",
+     "where": "p4",
+     "status": "done"
+    },
+    {
+     "rule": "Disclosure to advisers and affiliates follows the template; a further class of permitted recipient",
+     "where": "p3, n1",
+     "status": "done"
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "where": "n1, p4; Purpose and additional Confidential Information belong to definitions elsewhere.",
+     "status": "done"
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "where": "p1, p2, p3, p4",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "where": "No housekeeping appears in p1–p4 or n1.",
+     "status": "done"
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "where": "p2, p3, n1, p4",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time",
+     "where": "This clause names parties only by the template's generic designation; party particulars belong elsewhere.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "No figures arise in this clause.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "where": "No deal dates arise in this clause; the drafting date belongs elsewhere.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "where": "p4",
+     "status": "done"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not",
+     "where": "No such provision appears in this clause.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "No values or decisions are open in this clause.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "where": "p4 fills a bracketed option, not a settled position; n1 adds a permitted recipient without displacing an unbracketed position.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "where": "No contradiction reaches this clause.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's",
+     "where": "Governing law and jurisdiction belong in another clause.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "where": "n1 introduces no cross-reference.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "p2, p3, n1, p4",
+     "status": "done"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "The standard of care is the template's unless the term sheet sets another.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Disclosure to advisers and affiliates follows the template; a further class of permitted recipient the term sheet allows is one more limb.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Confidentiality Obligations",
+      "cells": null,
+      "inserted": null,
+      "original": "Confidentiality Obligations",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "Each party shall keep the other party's Confidential Information confidential and shall use it only for the Purpose.",
+      "cells": null,
+      "inserted": null,
+      "original": "Each party shall keep the other party's Confidential Information confidential and shall use it only for the Purpose.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p3",
+      "text": "Each party may disclose the other party's Confidential Information to its Representatives who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+      "cells": null,
+      "inserted": null,
+      "original": "Each party may disclose the other party's Confidential Information to its Representatives who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "n1",
+      "text": "Each party may also disclose the other party's Confidential Information to its actual or prospective funders who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.",
+      "cells": null,
+      "inserted": [
+       1,
+       0
+      ],
+      "original": "",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p4",
+      "text": "Each party shall protect the other party's Confidential Information with reasonable care.",
+      "cells": null,
+      "inserted": null,
+      "original": "Each party shall protect the other party's Confidential Information with [at least the same degree of care it uses for its own confidential information][reasonable care].",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 1,
+    "struck_after": {},
+    "task": "YOUR PIECE: Confidentiality Obligations.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - The standard of care is the template's unless the term sheet sets another.\n- Disclosure to advisers and affiliates follows the template; a further class of permitted\n  recipient the term sheet allows is one more limb.\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE (search_record finds a term elsewhere in the term sheet):\n\n[2] 2. Purpose\n2. Purpose\nEvaluating a possible joint development of warehouse picking software.\nWRITTEN BY ANOTHER PIECE, never here (change only what your own words must for it): Purpose: evaluating a possible joint development of warehouse picking software (Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)).\n\n[3] 3. Additional Confidential Information\n3. Additional Confidential Information\nConfidential Information also includes product roadmaps and test data.\nWRITTEN BY ANOTHER PIECE, never here (change only what your own words must for it): Product roadmaps included in Confidential Information (Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)); Test data included in Confidential Information (Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)).\n\n[4] 4. Standard of care\n4. Standard of care\nReasonable care.\n\n[5] 5. Permitted recipients\n5. Permitted recipients\nEach party may also disclose to its actual or prospective funders, on the same terms.\nTHIS PIECE WRITES, where the playbook writes it at all: Each party may disclose to actual or prospective funders, on the same terms. Where the base document already provides for a term, its words stand; a term the playbook spends or keeps out is not written.\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 37
+  },
+  {
+   "title": "Exceptions",
+   "edits": [],
+   "paragraphs": {
+    "changed": [],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [],
+    "changed_context": [],
+    "deleted_context": [],
+    "inserted": [],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [],
+    "insert_ranks": [],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [],
+     "r": [],
+     "t": []
+    },
+    "notes": [],
+    "first": "Exceptions"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The template’s exceptions stand unchanged because the term sheet says nothing about them. There are no open points for this clause.",
+   "rules_accounted": [
+    {
+     "rule": "The template's exceptions stand",
+     "where": "p2–p5; the term sheet states no additions or removals.",
+     "status": "done"
+    },
+    {
+     "rule": "Every term the term sheet sets",
+     "where": "No term about exceptions is stated; other subjects belong in their respective clauses.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The base document's words stand",
+     "where": "p1–p5.",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping",
+     "where": "No housekeeping appears in p1–p5.",
+     "status": "done"
+    },
+    {
+     "rule": "A term defined in the base",
+     "where": "p1–p5 contain no term-sheet substitutes or new defined terms.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A party is named in full",
+     "where": "No party is named in p1–p5.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "No figures arise in p1–p5.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Dates the term sheet gives",
+     "where": "No dates arise in p1–p5.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base",
+     "where": "No brackets occur in p1–p5.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not",
+     "where": "The exceptions in p1–p5 apply to this mutual confidentiality agreement.",
+     "status": "done"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "No exception-related value or decision is open.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "where": "No exception-related departure appears.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "where": "No conflicting exception terms appear.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction",
+     "where": "Those terms belong in the governing-law clause, not p1–p5.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A cross-reference written in new text",
+     "where": "No new text or cross-reference was written; the template field in p2 stands.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "p2–p5 contain no one-way disclosure obligation and stand for the mutual deal.",
+     "status": "done"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "The template's exceptions stand.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Exceptions",
+      "cells": null,
+      "inserted": null,
+      "original": "Exceptions",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "The obligations in Clause 2 do not apply to information which:",
+      "cells": null,
+      "inserted": null,
+      "original": "The obligations in Clause 2 do not apply to information which:",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p3",
+      "text": "is or becomes public other than through a breach of this Agreement;",
+      "cells": null,
+      "inserted": null,
+      "original": "is or becomes public other than through a breach of this Agreement;",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p4",
+      "text": "was lawfully in the recipient's possession before disclosure; or",
+      "cells": null,
+      "inserted": null,
+      "original": "was lawfully in the recipient's possession before disclosure; or",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p5",
+      "text": "is required to be disclosed by law or by any regulatory authority.",
+      "cells": null,
+      "inserted": null,
+      "original": "is required to be disclosed by law or by any regulatory authority.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 0,
+    "struck_after": {},
+    "task": "YOUR PIECE: Exceptions.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - The template's exceptions stand. An exception the term sheet adds is one more limb; an\n  exception it removes is struck with an open point, since a narrower set of exceptions is a\n  departure from the house position.\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE: none. The term sheet says nothing about this piece.\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 26
+  },
+  {
+   "title": "Term and Termination",
+   "edits": [
+    {
+     "kind": "modify",
+     "para": "p2",
+     "old_text": "This Agreement continues for [two (2)] years from its date.",
+     "new_text": "This Agreement continues for three (3) years from its date.",
+     "reason": "",
+     "termsheet_quote": "The agreement lasts three (3) years."
+    },
+    {
+     "kind": "modify",
+     "para": "p3",
+     "old_text": "The obligations in Clause 2 survive termination for [•] years.",
+     "new_text": "The obligations in Clause 2 survive termination for five (5) years.",
+     "reason": "",
+     "termsheet_quote": "The confidentiality obligations survive for five (5) years after it ends."
+    }
+   ],
+   "paragraphs": {
+    "changed": [
+     [
+      "This Agreement continues for [two (2)] years from its date.",
+      "This Agreement continues for three (3) years from its date."
+     ],
+     [
+      "The obligations in Clause 2 survive termination for [•] years.",
+      "The obligations in Clause 2 survive termination for five (5) years."
+     ]
+    ],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [
+     0,
+     0
+    ],
+    "changed_context": [
+     [
+      "Term and Termination",
+      0
+     ],
+     [
+      "This Agreement continues for [two (2)] years from its date.",
+      0
+     ]
+    ],
+    "deleted_context": [],
+    "inserted": [],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [],
+    "insert_ranks": [],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [],
+     "r": [],
+     "t": []
+    },
+    "notes": [
+     [
+      "This Agreement continues for three (3) years from its date.",
+      ""
+     ],
+     [
+      "The obligations in Clause 2 survive termination for five (5) years.",
+      ""
+     ]
+    ],
+    "first": "Term and Termination"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The Agreement continues for three (3) years, and the Clause 2 obligations survive termination for five (5) years. No points remain open in this piece.",
+   "rules_accounted": [
+    {
+     "rule": "The term is the term sheet's",
+     "where": "p2; p3 (confidentiality survival period).",
+     "status": "done"
+    },
+    {
+     "rule": "Read also by: Return or Destruction",
+     "where": "The retention right belongs to Return or Destruction and is not written here.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "where": "p2, p3; retention belongs to Return or Destruction.",
+     "status": "done"
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "where": "p1–p3.",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "where": "p1–p3 contain no housekeeping.",
+     "status": "done"
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "where": "p2–p3 use the template's terminology; no new definition is needed.",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full",
+     "where": "No party is named in p1–p3.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "p2, p3.",
+     "status": "done"
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "where": "No fixed date belongs in p1–p3.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "where": "p2, p3.",
+     "status": "done"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "where": "No such provision appears in p1–p3.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "No value needed by p1–p3 is missing.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "where": "p2 and p3 filled bracketed values, not settled unbracketed positions.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "where": "The duration and survival provisions do not conflict.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's",
+     "where": "Governing law and jurisdiction belong to another clause.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "where": "p3's existing Clause 2 reference remains a live template reference; no new reference was written.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "p1–p3 do not impose party-specific disclosure obligations; the mutual structure is unchanged.",
+     "status": "done"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "The term is the term sheet's. The confidentiality obligations survive",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Term and Termination",
+      "cells": null,
+      "inserted": null,
+      "original": "Term and Termination",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "This Agreement continues for three (3) years from its date.",
+      "cells": null,
+      "inserted": null,
+      "original": "This Agreement continues for [two (2)] years from its date.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p3",
+      "text": "The obligations in Clause 2 survive termination for five (5) years.",
+      "cells": null,
+      "inserted": null,
+      "original": "The obligations in Clause 2 survive termination for [•] years.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 0,
+    "struck_after": {},
+    "task": "YOUR PIECE: Term and Termination.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - The term is the term sheet's. The confidentiality obligations survive for the period the term\n  sheet gives; where it gives none, the template's survival period stands.\n\nRead also by: Return or Destruction\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE (search_record finds a term elsewhere in the term sheet):\n\n[6] 6. Duration\n6. Duration\nThe agreement lasts three (3) years. The confidentiality obligations survive for five (5) years after it ends.\n\n[7] 7. Retention\n7. Retention\nA party may keep copies it is required to keep by law, which remain confidential.\nWRITTEN BY ANOTHER PIECE, never here (change only what your own words must for it): Right to retain copies required by law, with retained copies remaining confidential (Return or Destruction).\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 26
+  },
+  {
+   "title": "Return or Destruction",
+   "edits": [
+    {
+     "kind": "insert",
+     "old_text": "On the other party's written request, each party shall promptly return or destroy the other party's Confidential Information.",
+     "new_text": "A party may retain copies of the other party's Confidential Information it is required to retain by law, provided that such copies remain confidential.",
+     "paragraphs": [
+      "A party may retain copies of the other party's Confidential Information it is required to retain by law, provided that such copies remain confidential."
+     ],
+     "reason": "Copies required to be retained by law remain confidential.",
+     "termsheet_quote": "A party may keep copies it is required to keep by law, which remain confidential."
+    }
+   ],
+   "paragraphs": {
+    "changed": [],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [],
+    "changed_context": [],
+    "deleted_context": [],
+    "inserted": [
+     [
+      "On the other party's written request, each party shall promptly return or destroy the other party's Confidential Information.",
+      [
+       "A party may retain copies of the other party's Confidential Information it is required to retain by law, provided that such copies remain confidential."
+      ],
+      [
+       false
+      ]
+     ]
+    ],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [
+     [
+      "p",
+      0
+     ]
+    ],
+    "insert_ranks": [
+     0
+    ],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [
+      [
+       "Return or Destruction",
+       0
+      ]
+     ],
+     "r": [],
+     "t": []
+    },
+    "notes": [
+     [
+      "A party may retain copies of the other party's Confidential Information it is required to retain by law, provided that such copies remain confidential.",
+      "Copies required to be retained by law remain confidential. | term sheet: \"A party may keep copies it is required to keep by law, which remain confidential.\""
+     ]
+    ],
+    "first": "Return or Destruction"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The return-or-destruction obligation now permits legally required copies to be retained, subject to confidentiality. No point remains open in this piece.",
+   "rules_accounted": [
+    {
+     "rule": "The template's clause stands unless the term sheet sets a period or allows retention for legal or regulatory purposes",
+     "where": "p2, n1",
+     "status": "done"
+    },
+    {
+     "rule": "The term is the term sheet's; the confidentiality obligations survive for the period the term sheet gives",
+     "where": "Term and Termination is another piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject",
+     "where": "n1; the duration and survival terms belong in Term and Termination.",
+     "status": "done"
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "where": "p1, p2",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "where": "p1, p2, n1; no housekeeping text appears.",
+     "status": "done"
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "where": "p2, n1 (Confidential Information); no new defined term is necessary.",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full the first time the contract names it",
+     "where": "Neither p1, p2 nor n1 first names a party.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "No figure belongs in this piece; duration figures belong in Term and Termination.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "where": "No date belongs in this piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "where": "p1, p2, n1 have no brackets.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "where": "p1 and p2 apply to this mutual agreement.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "There is no missing value or unresolved decision in p1, p2 or n1.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled, write the term and raise one open point",
+     "where": "n1 adds a legal-retention permission without replacing a settled base position.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself, neither version is chosen",
+     "where": "No conflicting retention terms appear.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "where": "Governing law and jurisdiction are outside this piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "where": "n1 contains no cross-reference.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "p2 and n1 apply to each party.",
+     "status": "done"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "The template's clause stands unless the term sheet sets a period or allows retention for legal or regulatory purposes",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term is the term sheet's. The confidentiality obligations survive for the period the term sheet gives",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Return or Destruction",
+      "cells": null,
+      "inserted": null,
+      "original": "Return or Destruction",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "On the other party's written request, each party shall promptly return or destroy the other party's Confidential Information.",
+      "cells": null,
+      "inserted": null,
+      "original": "On the other party's written request, each party shall promptly return or destroy the other party's Confidential Information.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "n1",
+      "text": "A party may retain copies of the other party's Confidential Information it is required to retain by law, provided that such copies remain confidential.",
+      "cells": null,
+      "inserted": [
+       0,
+       0
+      ],
+      "original": "",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 1,
+    "struck_after": {},
+    "task": "YOUR PIECE: Return or Destruction.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - The template's clause stands unless the term sheet sets a period or allows retention for\n  legal or regulatory purposes, which is written as one more sentence.\n- - The term is the term sheet's. The confidentiality obligations survive for the period the term\n  sheet gives; where it gives none, the template's survival period stands.\n\nRead also by: Return or Destruction\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE (search_record finds a term elsewhere in the term sheet):\n\n[7] 7. Retention\n7. Retention\nA party may keep copies it is required to keep by law, which remain confidential.\nTHIS PIECE WRITES, where the playbook writes it at all: Right to retain copies required by law, with retained copies remaining confidential. Where the base document already provides for a term, its words stand; a term the playbook spends or keeps out is not written.\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 30
+  },
+  {
+   "title": "Remedies",
+   "edits": [],
+   "paragraphs": {
+    "changed": [],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [],
+    "changed_context": [],
+    "deleted_context": [],
+    "inserted": [],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [],
+    "insert_ranks": [],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [],
+     "r": [],
+     "t": []
+    },
+    "notes": [],
+    "first": "Remedies"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The Remedies clause is unchanged and preserves each party’s right to seek injunctive relief. There are no open points.",
+   "rules_accounted": [
+    {
+     "rule": "The template's injunctive relief clause stands",
+     "where": "p2; no liability cap or indemnity is requested.",
+     "status": "done"
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract",
+     "where": "The term sheet sets no term concerning Remedies.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "where": "p1, p2",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "where": "p1, p2 contain no housekeeping.",
+     "status": "done"
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "where": "p2 uses Agreement; no new defined term is needed.",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "where": "No first identification of a party occurs in p1 or p2.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "There are no figures in this piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "where": "There are no dates in this piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "where": "p1 and p2 have no brackets.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "where": "p2 applies to this mutual agreement.",
+     "status": "done"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "No value or decision concerning this piece is open.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "where": "There is no term-sheet departure concerning Remedies.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "where": "There are no conflicting remedies terms.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "where": "Governing law and jurisdiction are outside the Remedies clause.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "where": "No text or cross-reference was added.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "p2 applies equally to each party.",
+     "status": "done"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "The template's injunctive relief clause stands.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Remedies",
+      "cells": null,
+      "inserted": null,
+      "original": "Remedies",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "Each party acknowledges that damages alone may not be an adequate remedy for a breach of this Agreement and that the other party is entitled to seek injunctive relief.",
+      "cells": null,
+      "inserted": null,
+      "original": "Each party acknowledges that damages alone may not be an adequate remedy for a breach of this Agreement and that the other party is entitled to seek injunctive relief.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 0,
+    "struck_after": {},
+    "task": "YOUR PIECE: Remedies.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - The template's injunctive relief clause stands. A liability cap or indemnity the term sheet\n  asks for is written here, with one open point, since the template has none.\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE: none. The term sheet says nothing about this piece.\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 28
+  },
+  {
+   "title": "Governing Law and Jurisdiction",
+   "edits": [
+    {
+     "kind": "modify",
+     "para": "p2",
+     "old_text": "This Agreement is governed by the laws of [England and Wales] and the courts of [England] have exclusive jurisdiction.",
+     "new_text": "This Agreement is governed by the laws of England and Wales and the courts of England have exclusive jurisdiction.",
+     "reason": "",
+     "termsheet_quote": "English law; courts of England."
+    }
+   ],
+   "paragraphs": {
+    "changed": [
+     [
+      "This Agreement is governed by the laws of [England and Wales] and the courts of [England] have exclusive jurisdiction.",
+      "This Agreement is governed by the laws of England and Wales and the courts of England have exclusive jurisdiction."
+     ]
+    ],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [
+     0
+    ],
+    "changed_context": [
+     [
+      "Governing Law and Jurisdiction",
+      0
+     ]
+    ],
+    "deleted_context": [],
+    "inserted": [],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [],
+    "insert_ranks": [],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [],
+     "r": [],
+     "t": []
+    },
+    "notes": [
+     [
+      "This Agreement is governed by the laws of England and Wales and the courts of England have exclusive jurisdiction.",
+      ""
+     ]
+    ],
+    "first": "Governing Law and Jurisdiction"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The governing-law and jurisdiction options now specify England and Wales and the courts of England. No point remains open in this piece.",
+   "rules_accounted": [
+    {
+     "rule": "As the General rule: the term sheet's where it states them",
+     "where": "p2",
+     "status": "done"
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "where": "p2",
+     "status": "done"
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "where": "p1, p2",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "where": "Not applicable: the provision concerns only governing law and jurisdiction.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "where": "Not applicable: no term-sheet defined-term equivalent or new repeated term occurs here.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A party is named in full",
+     "where": "Not applicable: neither paragraph names a party.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "Not applicable: no figures or currencies occur.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "where": "Not applicable: no date occurs in this piece.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "where": "p2",
+     "status": "done"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "where": "Not applicable: this governing-law provision applies to the deal.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "Not applicable: no value is missing from this provision.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "where": "Not applicable: both specified places were bracketed options.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "where": "Not applicable: the governing-law term is consistent.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "where": "p2",
+     "status": "done"
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "where": "Not applicable: no cross-reference was added.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "Not applicable: this provision imposes no recipient-only obligation.",
+     "status": "not_applicable"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "As the General rule: the term sheet's where it states them.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Governing Law and Jurisdiction",
+      "cells": null,
+      "inserted": null,
+      "original": "Governing Law and Jurisdiction",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "This Agreement is governed by the laws of England and Wales and the courts of England have exclusive jurisdiction.",
+      "cells": null,
+      "inserted": null,
+      "original": "This Agreement is governed by the laws of [England and Wales] and the courts of [England] have exclusive jurisdiction.",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 0,
+    "struck_after": {},
+    "task": "YOUR PIECE: Governing Law and Jurisdiction.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - As the General rule: the term sheet's where it states them.\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE (search_record finds a term elsewhere in the term sheet):\n\n[8] 8. Governing law\n8. Governing law\nEnglish law; courts of England.\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 26
+  },
+  {
+   "title": "Execution page",
+   "edits": [
+    {
+     "kind": "modify",
+     "para": "p2",
+     "old_text": "Signed for and on behalf of the First Party: ____________________",
+     "new_text": "Signed for and on behalf of Northwind Analytics Limited: ____________________",
+     "reason": "",
+     "termsheet_quote": "Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin."
+    },
+    {
+     "kind": "modify",
+     "para": "p3",
+     "old_text": "Signed for and on behalf of the Second Party: ____________________",
+     "new_text": "Signed for and on behalf of Bluefield Robotics GmbH: ____________________",
+     "reason": "",
+     "termsheet_quote": "Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin."
+    }
+   ],
+   "paragraphs": {
+    "changed": [
+     [
+      "Signed for and on behalf of the First Party: ____________________",
+      "Signed for and on behalf of Northwind Analytics Limited: ____________________"
+     ],
+     [
+      "Signed for and on behalf of the Second Party: ____________________",
+      "Signed for and on behalf of Bluefield Robotics GmbH: ____________________"
+     ]
+    ],
+    "deleted": [],
+    "deleted_ranks": [],
+    "changed_ranks": [
+     0,
+     0
+    ],
+    "changed_context": [
+     [
+      "Execution page",
+      0
+     ],
+     [
+      "Signed for and on behalf of the First Party: ____________________",
+      0
+     ]
+    ],
+    "deleted_context": [],
+    "inserted": [],
+    "rows_inserted": [],
+    "tables_inserted": [],
+    "insert_order": [],
+    "insert_ranks": [],
+    "row_ranks": [],
+    "table_ranks": [],
+    "anchor_context": {
+     "p": [],
+     "r": [],
+     "t": []
+    },
+    "notes": [
+     [
+      "Signed for and on behalf of Northwind Analytics Limited: ____________________",
+      ""
+     ],
+     [
+      "Signed for and on behalf of Bluefield Robotics GmbH: ____________________",
+      ""
+     ]
+    ],
+    "first": "Execution page"
+   },
+   "open_points": [],
+   "refusals": [],
+   "note": "The execution page names Northwind Analytics Limited and Bluefield Robotics GmbH as signatories. No execution-page points remain open.",
+   "rules_accounted": [
+    {
+     "rule": "The signatories are the parties as defined",
+     "where": "p2, p3; the form's signature blanks stand.",
+     "status": "done"
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "where": "p2, p3 contain the signatories; the other particulars belong on the cover page.",
+     "status": "done"
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach",
+     "where": "p1–p3.",
+     "status": "done"
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "where": "p1–p3; none was added.",
+     "status": "done"
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name",
+     "where": "p2, p3 use the parties' names as expressly required for signatories; no new definition is needed.",
+     "status": "done"
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "where": "p2, p3 use full names; the cover page handles first identification and particulars.",
+     "status": "done"
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "where": "No figures are required on the execution page.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "where": "No date field appears on the execution page.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "where": "p1–p3 have no bracketed options or blanks.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "where": "No such material appears on the execution page.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "where": "The signature blanks stand under the express signatory rule; no open point is needed.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "where": "p2, p3 supply party names in the form's signatory labels, as the express signatory rule requires; no substantive settled position is displaced.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "where": "No contradictory execution-page terms arise.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "where": "These provisions are outside the execution page.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "where": "No cross-reference was written.",
+     "status": "not_applicable"
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only",
+     "where": "Mutual-disclosure obligations are outside the execution page.",
+     "status": "not_applicable"
+    }
+   ],
+   "fix_accounted": [],
+   "rule_check": [
+    {
+     "rule": "The signatories are the parties as defined.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Every term the term sheet sets is written into the contract, once",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The base document's words stand wherever the term sheet and these rules do not reach.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The term sheet's housekeeping is never written into the contract",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A term defined in the base is used by its defined name.",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A party is named in full, as the term sheet names it, the first time the contract names it",
+     "met": "yes",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Figures are written as the term sheet writes them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Dates the term sheet gives are written as dates",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A bracketed option in the base is resolved",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "An open point says why before it asks",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet departs from a position the base states as settled",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Where the term sheet contradicts itself",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "Governing law and jurisdiction are the term sheet's where it states them",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "A cross-reference written in new text names the clause by its number and heading",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    },
+    {
+     "rule": "The agreement is mutual unless the term sheet says one party discloses only.",
+     "met": "does_not_reach",
+     "fault": "",
+     "breaks": "",
+     "reads": ""
+    }
+   ],
+   "check": {
+    "defined_term_variants": [],
+    "list_punctuation": [],
+    "struck_without_reason": [],
+    "precedent_among_copied_text": [],
+    "repeated_paragraphs": [],
+    "unbalanced_parentheses": [],
+    "brackets": [],
+    "footnote_notes": [],
+    "defined_twice": [],
+    "deleted_then_retyped": [],
+    "precedent_defects": [],
+    "old_deal_numbers": []
+   },
+   "state": {
+    "paras": [
+     {
+      "id": "p1",
+      "text": "Execution page",
+      "cells": null,
+      "inserted": null,
+      "original": "Execution page",
+      "xrefs": [],
+      "heading": 1,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p2",
+      "text": "Signed for and on behalf of Northwind Analytics Limited: ____________________",
+      "cells": null,
+      "inserted": null,
+      "original": "Signed for and on behalf of the First Party: ____________________",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     },
+     {
+      "id": "p3",
+      "text": "Signed for and on behalf of Bluefield Robotics GmbH: ____________________",
+      "cells": null,
+      "inserted": null,
+      "original": "Signed for and on behalf of the Second Party: ____________________",
+      "xrefs": [],
+      "heading": 0,
+      "heading_like": "",
+      "beneath": false,
+      "beneath_of": "",
+      "like": "",
+      "like_struck": false,
+      "moved_from": ""
+     }
+    ],
+    "deleted": [],
+    "next": 0,
+    "struck_after": {},
+    "task": "YOUR PIECE: Execution page.\nTHE DOCUMENT YOU ARE EDITING is the client's template.\n\nRULES FOR THIS PIECE:\n- - The signatories are the parties as defined. A signatory's name or title the term sheet does\n  not give is left as the template's blank.\n- Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[•]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[•]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[•]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the base states as settled (unbracketed words), the term sheet's term is written and one open point names the base position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck.\n\nTHE TERM SHEET'S SECTIONS FOR THIS PIECE (search_record finds a term elsewhere in the term sheet):\n\n[1] 1. Parties\n1. Parties\nNorthwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin.\nTHIS PIECE WRITES, where the playbook writes it at all: First Party signatory: Northwind Analytics Limited; Second Party signatory: Bluefield Robotics GmbH. Where the base document already provides for a term, its words stand; a term the playbook spends or keeps out is not written.\nWRITTEN BY ANOTHER PIECE, never here (change only what your own words must for it): First Party: Northwind Analytics Limited, incorporated in England and Wales, company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX (Cover page); Second Party: Bluefield Robotics GmbH, incorporated in Germany, registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin (Cover page).\n\nTHE DEAL, as the term sheet reads:\n- Disclosure: mutual\n- Governing law: England and Wales\n\nTHE CLIENT'S OWN DETAILS, for where the form asks for its particulars:\n- Client registered office: 10 Example Street, Exampletown XX1 1XX\n- Client notice email: legal@northwind.example\n- Drafting date: 5 November 2026\n\nStart with outline. Draft it. Run check and put right what it reports. Then read the whole piece again and go down every rule above: where it is met, note the paragraph ids; where it is not, fix it now; where it does not reach this piece, say why. Only then submit_outcome, with that account in rules_accounted."
+   },
+   "seconds": 33
+  }
+ ],
+ "failed": []
+}

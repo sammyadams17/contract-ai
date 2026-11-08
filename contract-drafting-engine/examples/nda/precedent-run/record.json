@@ -1,0 +1,209 @@
+{
+ "deal": "precedent-run",
+ "model": "gpt-6-sol-2026-09-22",
+ "sections": [
+  {
+   "index": 0,
+   "heading": "Heads of Terms: Mutual Confidentiality Agreement",
+   "text": "Heads of Terms: Mutual Confidentiality Agreement\nThese heads of terms are not legally binding, except for paragraph 9.\n",
+   "part": "body"
+  },
+  {
+   "index": 1,
+   "heading": "1. Parties",
+   "text": "1. Parties\nNorthwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin.\n",
+   "part": "body"
+  },
+  {
+   "index": 2,
+   "heading": "2. Purpose",
+   "text": "2. Purpose\nEvaluating a possible joint development of warehouse picking software.\n",
+   "part": "body"
+  },
+  {
+   "index": 3,
+   "heading": "3. Additional Confidential Information",
+   "text": "3. Additional Confidential Information\nConfidential Information also includes product roadmaps and test data.\n",
+   "part": "body"
+  },
+  {
+   "index": 4,
+   "heading": "4. Standard of care",
+   "text": "4. Standard of care\nReasonable care.\n",
+   "part": "body"
+  },
+  {
+   "index": 5,
+   "heading": "5. Permitted recipients",
+   "text": "5. Permitted recipients\nEach party may also disclose to its actual or prospective funders, on the same terms.\n",
+   "part": "body"
+  },
+  {
+   "index": 6,
+   "heading": "6. Duration",
+   "text": "6. Duration\nThe agreement lasts three (3) years. The confidentiality obligations survive for five (5) years after it ends.\n",
+   "part": "body"
+  },
+  {
+   "index": 7,
+   "heading": "7. Retention",
+   "text": "7. Retention\nA party may keep copies it is required to keep by law, which remain confidential.\n",
+   "part": "body"
+  },
+  {
+   "index": 8,
+   "heading": "8. Governing law",
+   "text": "8. Governing law\nEnglish law; courts of England.\n",
+   "part": "body"
+  },
+  {
+   "index": 9,
+   "heading": "9. Confidentiality of these heads of terms",
+   "text": "9. Confidentiality of these heads of terms\nThese heads of terms are themselves confidential.\n",
+   "part": "body"
+  },
+  {
+   "index": 10,
+   "heading": "10. Timetable",
+   "text": "10. Timetable\nThe parties aim to sign the agreement within two weeks.",
+   "part": "body"
+  }
+ ],
+ "facts": [
+  {
+   "section": 0,
+   "term": "Heads of Terms: Mutual Confidentiality Agreement",
+   "kind": "position",
+   "value": "These heads of terms are not legally binding, except for paragraph 9.",
+   "quote": "These heads of terms are not legally binding, except for paragraph 9.",
+   "quote_verified": true,
+   "note": "",
+   "role": "termsheet_only",
+   "open": false
+  },
+  {
+   "section": 1,
+   "term": "Parties",
+   "kind": "value",
+   "value": "Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin.",
+   "quote": "Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX; and Bluefield Robotics GmbH, a company incorporated in Germany with registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 2,
+   "term": "Purpose",
+   "kind": "value",
+   "value": "Evaluating a possible joint development of warehouse picking software.",
+   "quote": "Evaluating a possible joint development of warehouse picking software.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 3,
+   "term": "Confidential Information",
+   "kind": "value",
+   "value": "also includes product roadmaps and test data.",
+   "quote": "Confidential Information also includes product roadmaps and test data.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 4,
+   "term": "Standard of care",
+   "kind": "value",
+   "value": "Reasonable care.",
+   "quote": "Reasonable care.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 5,
+   "term": "Permitted recipients",
+   "kind": "value",
+   "value": "Each party may also disclose to its actual or prospective funders, on the same terms.",
+   "quote": "Each party may also disclose to its actual or prospective funders, on the same terms.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 6,
+   "term": "Duration: agreement",
+   "kind": "value",
+   "value": "three (3) years",
+   "quote": "The agreement lasts three (3) years.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 6,
+   "term": "Duration: confidentiality obligations",
+   "kind": "value",
+   "value": "five (5) years after it ends",
+   "quote": "The confidentiality obligations survive for five (5) years after it ends.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 7,
+   "term": "Retention",
+   "kind": "value",
+   "value": "A party may keep copies it is required to keep by law, which remain confidential.",
+   "quote": "A party may keep copies it is required to keep by law, which remain confidential.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 8,
+   "term": "Governing law",
+   "kind": "value",
+   "value": "English law; courts of England.",
+   "quote": "English law; courts of England.",
+   "quote_verified": true,
+   "note": "",
+   "role": "term",
+   "open": false
+  },
+  {
+   "section": 9,
+   "term": "Confidentiality of these heads of terms",
+   "kind": "position",
+   "value": "These heads of terms are themselves confidential.",
+   "quote": "These heads of terms are themselves confidential.",
+   "quote_verified": true,
+   "note": "",
+   "role": "termsheet_only",
+   "open": false
+  },
+  {
+   "section": 10,
+   "term": "Timetable",
+   "kind": "value",
+   "value": "The parties aim to sign the agreement within two weeks.",
+   "quote": "The parties aim to sign the agreement within two weeks.",
+   "quote_verified": true,
+   "note": "",
+   "role": "termsheet_only",
+   "open": false
+  }
+ ],
+ "structure": {},
+ "notes": [],
+ "gaps": []
+}

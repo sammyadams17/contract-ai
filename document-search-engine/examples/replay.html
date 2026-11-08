@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Document search engine – demo</title>
+<style>
+  :root { --ink:#1d1d1f; --muted:#6b6f76; --line:#e4e6ea; --bg:#f4f5f7; --link:#1a3fd6; --mark:#fff1b8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 -apple-system, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+  .shell { display:grid; grid-template-columns: 260px minmax(0, 1fr); min-height:100vh; }
+  .shell.reading { grid-template-columns: 260px minmax(0, 1fr) min(40vw, 580px); }
+  .side { background:#fff; border-right:1px solid var(--line); padding:16px 12px; position:sticky; top:var(--top, 0px); height:calc(100vh - var(--top, 0px)); overflow:auto; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:600; margin:2px 6px 18px; }
+  .brand i { width:32px; height:32px; border-radius:8px; background:#00a9f4; display:grid; place-items:center; color:#fff; font-style:normal; }
+  .side .new { width:100%; text-align:left; border:0; background:none; font:inherit; padding:8px 10px; border-radius:8px; cursor:pointer; color:var(--ink); }
+  .side .new:hover, .side .rec:hover { background:#f2f3f5; }
+  .side h4 { font-size:12px; color:var(--muted); font-weight:500; margin:18px 10px 6px; }
+  .rec { display:block; width:100%; text-align:left; border:0; background:none; font:inherit; font-size:13px; padding:7px 10px; border-radius:8px; cursor:pointer; color:var(--ink); line-height:1.4; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; }
+  .rec + .rec { margin-top:2px; }
+  .rec.on { background:#eceef1; }
+  .chat { display:flex; flex-direction:column; height:calc(100vh - var(--top, 0px)); position:sticky; top:var(--top, 0px); min-width:0; }
+  .bar { display:none; border-bottom:1px solid var(--line); background:#fff; padding:12px 24px; }
+  .bar b { display:block; font-size:15px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .bar span { display:inline-block; margin-top:4px; border:1px solid var(--line); border-radius:999px; padding:1px 10px; font-size:12px; color:var(--muted); }
+  .chat.talking .bar { display:block; }
+  .scroll { flex:1; overflow-y:auto; display:none; }
+  .chat.talking .scroll { display:block; }
+  .home { flex:1; overflow:auto; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding:min(10vh, 80px) 24px 60px; }
+  .home > * { flex-shrink:0; }
+  .mark { width:54px; height:54px; border-radius:12px; background:#00a9f4; display:grid; place-items:center; color:#fff; margin-bottom:22px; }
+  .home h1 { font-family: Georgia, "Times New Roman", serif; font-weight:400; font-size:52px; margin:0; letter-spacing:-.01em; }
+  .home .tag { color:var(--muted); font-size:18px; margin:6px 0 28px; }
+  .box { width:min(820px, 92vw); background:#fff; border:1px solid var(--line); border-radius:22px; padding:16px 18px 12px; box-shadow:0 8px 40px rgba(0,169,244,.10), 0 1px 2px rgba(0,0,0,.04); }
+  .box .ph { color:#9a9ea6; min-height:56px; }
+  .box .row { display:flex; justify-content:flex-end; } .send { width:36px; height:36px; border-radius:50%; background:#eef0f3; display:grid; place-items:center; color:#555; }
+  .try { width:min(820px, 92vw); margin-top:18px; color:var(--muted); font-size:14px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+  .chips button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:7px 14px; font:inherit; font-size:14px; color:var(--ink); cursor:pointer; }
+  .chips button:hover { border-color:#99dcfb; background:#f0f9fe; }
+  .thread { width:100%; max-width:720px; margin:0 auto; padding:24px 24px 20px; }
+  .chat.talking .home { display:none; }
+  .q { display:flex; justify-content:flex-end; margin:22px 0 14px; }
+  .q span { background:#1d1d1f; color:#fff; border-radius:12px; padding:8px 16px; max-width:80%; font-size:16px; font-weight:500; line-height:1.5; }
+  .status { color:var(--muted); font-size:14px; margin:0 0 6px; display:flex; flex-direction:column; gap:2px; }
+  .status div { display:flex; gap:8px; align-items:center; } .status .dot { width:6px; height:6px; border-radius:50%; background:#00a9f4; }
+  .status.done { display:none; }
+  .a { font-size:16px; } .a > p, .a > ul, .a > h3 { opacity:.85; } .a p { line-height:1.65; } .a p { margin:8px 0; } .a ul { margin:6px 0; padding-left:22px; } .a h3 { font-size:15px; margin:18px 0 6px; }
+  .a a { color:#0086c3; cursor:pointer; text-decoration:none; font-weight:500; } .a a:hover, .a a.on { background:#e5f6fe; border-radius:4px; }
+  .a sup a { font-size:.72em; padding:0 2px; vertical-align:super; line-height:1; } .a sup { vertical-align:baseline; }
+  .meta { color:var(--muted); font-size:13px; margin:8px 0 0; }
+  .dock { background:var(--bg); padding:10px 0 16px; display:none; }
+  .chat.talking .dock { display:block; } .dock .inner { width:100%; max-width:720px; margin:0 auto; padding:0 24px; }
+  .dock .chips { margin-top:6px; }
+  .dock .box { width:100%; padding:10px 14px; border-radius:18px; } .dock .box .ph { min-height:0; }
+  .source { display:none; border-left:1px solid var(--line); background:#fff; position:sticky; top:var(--top, 0px); height:calc(100vh - var(--top, 0px)); overflow:auto; }
+  .shell.reading .source { display:block; }
+  .source .head { position:sticky; top:0; background:#fff; border-bottom:1px solid var(--line); padding:14px 20px; display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+  .source .head b { font-size:15px; } .source .head span { color:var(--muted); font-size:13px; }
+  .source .head button { border:1px solid var(--line); background:#fff; border-radius:8px; padding:4px 10px; cursor:pointer; font:inherit; font-size:13px; }
+  .source .page { margin:22px; padding:30px 34px; border:1px solid var(--line); box-shadow:0 2px 12px rgba(0,0,0,.06); font-family: Georgia, "Times New Roman", serif; font-size:15px; line-height:1.7; white-space:pre-wrap; }
+  .source mark { background:var(--mark); padding:0 1px; }
+  .library { width:100%; max-width:860px; padding:0 28px; margin:0 auto 30px; color:var(--muted); font-size:14px; }
+  .library details { background:#fff; border:1px solid var(--line); border-radius:12px; padding:10px 16px; }
+  .library summary { cursor:pointer; color:var(--ink); }
+  .doc { display:grid; grid-template-columns: 70px 120px 1fr; gap:8px; padding:6px 0; border-top:1px solid var(--line); }
+  .ok { color:#0f6b2f; } .gone { color:#b3261e; }
+  @media (max-width: 900px) { .shell, .shell.reading { grid-template-columns: 1fr; } .side, .source { position:static; height:auto; } }
+</style>
+</head>
+<body>
+<div class="shell" id="shell">
+  <nav class="side"><div class="brand"><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" aria-hidden="true"><path d="M3 6h7M3 11h5M3 16h6"/><circle cx="15.5" cy="12.5" r="4.5"/><path d="M19 16l3 3"/></svg></i>Document search</div>
+    <button class="new" id="new">＋&nbsp; Start chat</button>
+    <h4>Recent chats</h4><div id="recents"></div></nav>
+  <div class="chat" id="chat">
+    <div class="home">
+      <div class="mark"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" aria-hidden="true"><path d="M3 6h7M3 11h5M3 16h6"/><circle cx="15.5" cy="12.5" r="4.5"/><path d="M19 16l3 3"/></svg></div>
+      <h1>Document search</h1>
+      <div class="tag">Every answer cites its page.</div>
+      <div class="box"><div class="ph">Ask about a clause, a document or an agreement…</div><div class="row"><div class="send">↑</div></div></div>
+      <div class="try">This demo replays real answers from an invented contract library. Pick a question:
+        <div class="chips" id="chips"></div></div>
+    </div>
+    <div class="bar"><b id="title"></b><span>Full library</span></div>
+    <div class="scroll" id="scroll"><div class="thread" id="thread"></div></div>
+    <div class="dock"><div class="inner"><div class="box"><div class="ph">Ask another question:</div><div class="chips" id="chips2"></div></div></div></div>
+  </div>
+  <aside class="source" id="source">
+    <div class="head"><div><b id="ptitle"></b><br><span id="pnum"></span></div><button id="close">Close</button></div>
+    <div class="page" id="ptext"></div>
+  </aside>
+</div>
+<script>
+const D = /*DATA*/null;
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+function inline(s, refs) {
+  return esc(s).replace(/(\s*)\[([^\]]+)\]\(([^)\s]+)\)/g, (_, gap, label, url) => { const name = label.replace(/\.(pdf|docx)/gi, ""); if (!refs) return `${gap}<a data-src="${url}">${name}</a>`; if (!refs.has(url)) refs.set(url, refs.size + 1); return `<sup><a data-src="${url}" title="${name}">[${refs.get(url)}]</a></sup>`; }).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");
+}
+function md(text) {
+  const out = [], refs = new Map(); let list = false;
+  for (const line of text.split("\n")) {
+    const l = line.trim();
+    if (/^[-*] /.test(l)) { if (!list) { out.push("<ul>"); list = true; } out.push(`<li>${inline(l.slice(2))}</li>`); continue; }
+    if (list) { out.push("</ul>"); list = false; }
+    if (!l) continue;
+    if (/^#{1,4} /.test(l) || /^\*\*[^*]+\*\*:?$/.test(l)) out.push(`<h3>${inline(l.replace(/^#+ /, "").replace(/\*\*/g, "").replace(/:$/, ""))}</h3>`);
+    else out.push(`<p>${inline(l, refs)}</p>`);
+  }
+  if (list) out.push("</ul>");
+  return out.join("");
+}
+function said(step) {
+  const m = step.match(/^(\w+)\((.*)\)$/); if (!m) return step;
+  const a = {}; m[2].replace(/(\w+)=('([^']*)'|\[[^\]]*\]|\w+)/g, (_, k, v, s) => (a[k] = s !== undefined ? s : v));
+  return { documents: `Looking at the documents in ${a.folder}`, find_clauses: `Searching for “${a.query}”`, read_clause: `Reading clause ${a.naming}`,
+    read_pages: `Reading ${(a.document || "").replace(/\.(pdf|docx)$/i, "")}, page ${a.first}`, deep_search: "Reading every folder", folders: "Looking at the library" }[m[1]] || m[1];
+}
+function show(src, answer) {
+  const [path, page] = decodeURIComponent(src.replace(/^library\//, "")).split("#page=");
+  const pages = D.files[path]; if (!pages) return;
+  const n = Math.min(Math.max(+page || 1, 1), pages.length), text = pages[n - 1];
+  $("#ptitle").textContent = path.split("/").pop().replace(/\.(pdf|docx)$/i, "");
+  $("#pnum").textContent = `Page ${n} of ${pages.length} · ${path.split("/")[0]}`;
+  const bold = [...answer.matchAll(/\*\*([^*]+)\*\*/g)].map((m) => m[1]);
+  const figures = answer.match(/[£$€][\d,.]+|\b\d{1,2} [A-Z][a-z]+ \d{4}\b/g) || [];
+  let html = esc(text);
+  for (const k of [...new Set([...bold, ...figures])].filter((k) => k.length > 2 && text.includes(k)).sort((a, b) => b.length - a.length)) html = html.split(esc(k)).join(`<mark>${esc(k)}</mark>`);
+  $("#ptext").innerHTML = html;
+  $("#shell").classList.add("reading");
+  document.querySelectorAll(".a a").forEach((el) => el.classList.toggle("on", el.dataset.src === src));
+}
+$("#close").onclick = () => $("#shell").classList.remove("reading");
+// conversations, as the product keeps them: each chat its own thread, listed under Recent chats
+const chats = [];
+let current = null, busy = false;
+function turnHtml(i) {
+  const a = D.answers[i];
+  return `<div class="q"><span>${esc(a.question)}</span></div><div class="status done"></div><div class="a">${md(a.answer)}<div class="meta">Answered in ${a.seconds} seconds · a replay of the real answer</div></div>`;
+}
+function wire(scope, i) { scope.querySelectorAll(".a a").forEach((el) => (el.onclick = () => show(el.dataset.src, D.answers[i].answer))); }
+function renderRecents() {
+  $("#recents").innerHTML = chats.map((c) => `<button class="rec ${c === current ? "on" : ""}" data-c="${chats.indexOf(c)}" title="${esc(c.title)}">${esc(c.title)}</button>`).join("");
+  document.querySelectorAll(".rec").forEach((b) => (b.onclick = () => openChat(chats[+b.dataset.c])));
+}
+function openChat(chat) {
+  if (busy) return;
+  current = chat; $("#shell").classList.remove("reading");
+  $("#thread").innerHTML = "";
+  if (!chat) { $("#chat").classList.remove("talking"); renderRecents(); return; }
+  $("#chat").classList.add("talking");
+  chat.turns.forEach((i) => { const d = document.createElement("div"); d.innerHTML = turnHtml(i); $("#thread").appendChild(d); wire(d, i); });
+  $("#title").textContent = chat.title; renderRecents(); renderNext();
+  $("#scroll").scrollTop = $("#scroll").scrollHeight;
+}
+function ask(i) {
+  if (busy) return;
+  const a = D.answers[i];
+  if (!current) { current = { title: a.question, turns: [] }; chats.unshift(current); renderRecents(); }
+  $("#title").textContent = current.title;
+  busy = true; current.turns.push(i); renderNext();
+  $("#chat").classList.add("talking");
+  const turn = document.createElement("div");
+  turn.innerHTML = `<div class="q"><span>${esc(a.question)}</span></div><div class="status"></div><div class="a"></div>`;
+  $("#thread").appendChild(turn);
+  $("#scroll").scrollTo({ top: $("#scroll").scrollHeight, behavior: "smooth" });
+  const status = turn.querySelector(".status"), body = turn.querySelector(".a");
+  let k = 0;
+  const tick = setInterval(() => {
+    if (k < a.steps.length) { status.insertAdjacentHTML("beforeend", `<div><span class="dot"></span>${esc(said(a.steps[k++]))}</div>`); $("#scroll").scrollTop = $("#scroll").scrollHeight; return; }
+    clearInterval(tick); status.classList.add("done");
+    body.innerHTML = md(a.answer) + `<div class="meta">Answered in ${a.seconds} seconds · a replay of the real answer</div>`;
+    wire(turn, i); busy = false; renderNext(); $("#scroll").scrollTop = $("#scroll").scrollHeight;
+  }, 550);
+}
+const chips = D.answers.map((a, i) => `<button data-i="${i}">${esc(a.question)}</button>`).join("");
+$("#chips").innerHTML = chips;
+document.querySelectorAll("#chips button").forEach((b) => (b.onclick = () => ask(+b.dataset.i)));
+// under a chat, three questions it has not asked yet, so none is cut off at the edge
+function renderNext() {
+  const asked = current ? current.turns : [];
+  const next = D.answers.map((a, i) => i).filter((i) => !asked.includes(i)).slice(0, 3);
+  $("#chips2").innerHTML = next.map((i) => `<button data-i="${i}">${esc(D.answers[i].question)}</button>`).join("");
+  $("#chips2").querySelectorAll("button").forEach((b) => (b.onclick = () => ask(+b.dataset.i)));
+}
+$("#new").onclick = () => openChat(null);
+// earlier chats, one question each, one per folder, so the history reads as a person's would
+D.folders.slice().reverse().forEach((f) => {
+  const turns = D.answers.map((a, i) => [a, i]).filter(([a]) => a.answer.includes(encodeURIComponent(f.folder).replace(/%20/g, "%20"))).map(([, i]) => i);
+  const pick = turns[1] ?? turns[0];
+  if (pick !== undefined) chats.push({ title: D.answers[pick].question, turns: [pick] });
+});
+renderRecents();
+</script>
+</body>
+</html>

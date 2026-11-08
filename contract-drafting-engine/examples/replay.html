@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contract drafting engine – {{TITLE}}</title>
+<style>
+  :root { --ink:#1c2430; --muted:#5d6b7a; --line:#e3e8ee; --bg:#f3f5f8; --accent:#0b5cad;
+          --ins:#0f6b2f; --insbg:#e3f3e8; --del:#b3261e; --pt:#fff4e5; --ptb:#e37400; --cm:#eef3fb; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+  .wrap { max-width:1240px; margin:0 auto; padding:28px 28px 70px; }
+  .hero h1 { font-size:28px; margin:0 0 6px; letter-spacing:-.01em; }
+  .hero .arrow { color:var(--accent); }
+  .hero p { color:var(--muted); margin:0 0 20px; max-width:860px; font-size:16px; }
+  .nums { display:flex; gap:12px; flex-wrap:wrap; margin:0 0 30px; }
+  .num { background:#fff; border:1px solid var(--line); border-radius:12px; padding:12px 18px; min-width:150px; }
+  .num b { display:block; font-size:26px; line-height:1.1; } .num span { color:var(--muted); font-size:13px; }
+  h2 { font-size:19px; margin:34px 0 4px; } .sub { color:var(--muted); margin:0 0 14px; max-width:900px; }
+  .io { display:grid; grid-template-columns: minmax(0, 0.8fr) 46px minmax(0, 1.6fr); gap:0; align-items:start; }
+  .io .mid { align-self:start; position:sticky; top:120px; text-align:center; font-size:30px; color:var(--accent); }
+  .io .pin { position:sticky; top:16px; } .io .pin .paper { max-height:calc(100vh - 70px); overflow:auto; }
+  .label { font-size:12px; letter-spacing:.08em; text-transform:uppercase; font-weight:700; color:var(--muted); margin:0 0 8px; }
+  .label .tag { background:var(--accent); color:#fff; border-radius:5px; padding:1px 7px; margin-right:6px; letter-spacing:.04em; }
+  .paper { background:#fff; border:1px solid #d9dee5; box-shadow:0 2px 14px rgba(20,32,46,.08); border-radius:4px; padding:30px 34px;
+           font-family: Georgia, "Times New Roman", serif; font-size:14.5px; line-height:1.6; }
+  .ts p { margin:6px 0; } .ts .h { font-weight:700; margin-top:14px; font-family:-apple-system, "Segoe UI", sans-serif; font-size:13.5px; }
+  .toolbar { display:flex; gap:10px; align-items:center; margin:0 0 10px; flex-wrap:wrap; }
+  .btn { background:var(--accent); color:#fff; border:0; padding:9px 16px; border-radius:8px; font:inherit; font-weight:600; cursor:pointer; }
+  .btn.ghost { background:#fff; color:var(--accent); border:1px solid var(--accent); }
+  .key { color:var(--muted); font-size:13px; } .key ins, .key del { padding:0 3px; }
+  .doc { display:grid; grid-template-columns: minmax(0, 1fr) 270px; gap:0 18px; }
+  .para { display:flex; gap:10px; padding:3px 6px; border-radius:4px; margin:1px 0; }
+  .para .n { min-width:46px; color:#7a8794; font-variant-numeric:tabular-nums; }
+  .para.heading { font-weight:700; margin-top:12px; } .para.title { font-weight:700; justify-content:center; text-align:center; margin-bottom:8px; }
+  .para.flash { animation: flash 2.4s ease; } @keyframes flash { 0%,45% { background:#fff1b8; } 100% { background:transparent; } }
+  ins { color:var(--ins); background:var(--insbg); text-decoration:underline; text-underline-offset:2px; }
+  del { color:var(--del); text-decoration:line-through; }
+  .final del { display:none; } .final ins { color:inherit; background:none; text-decoration:none; }
+  .balloons { font-family:-apple-system, "Segoe UI", sans-serif; font-size:12.5px; line-height:1.45; }
+  .cm { background:var(--cm); border:1px solid #cfdcf0; border-radius:6px; padding:7px 9px; margin:2px 0 8px; position:relative; }
+  .cm::before { content:""; position:absolute; left:-19px; top:12px; width:18px; border-top:1px dashed #9db4d6; }
+  .cm.pt { background:var(--pt); border-color:#f3c68d; } .cm.pt::before { border-color:#f3c68d; }
+  .cm b { display:block; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-bottom:2px; }
+  .cm .q { display:block; color:var(--muted); font-style:italic; margin-top:3px; }
+  table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  th, td { text-align:left; padding:9px 14px; border-top:1px solid var(--line); vertical-align:top; font-size:14px; }
+  th { background:#f7f9fb; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.05em; border-top:0; }
+  .place { display:inline-block; background:var(--insbg); color:var(--ins); border:1px solid #b7dfc3; border-radius:6px; padding:1px 9px; margin:1px 4px 1px 0; cursor:pointer; font-size:13px; }
+  .place.nc { background:#f1f3f4; color:var(--muted); border-color:var(--line); cursor:default; }
+  .steps { display:grid; grid-template-columns: repeat(5, 1fr); gap:10px; }
+  .step { background:#fff; border:1px solid var(--line); border-radius:10px; padding:12px; transition:all .3s; }
+  .step b { display:block; font-size:14px; } .step span { color:var(--muted); font-size:12.5px; }
+  .step.on { border-color:var(--accent); background:#eef4fc; } .step.done { border-color:#b7dfc3; background:#f2faf4; }
+  .lanes { background:#fff; border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin-top:14px; }
+  .lane { display:grid; grid-template-columns: 290px minmax(0, 1fr); gap:12px; align-items:center; padding:3px 0; font-size:13px; }
+  .lane .who { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:var(--ink); }
+  .lane .who i { font-style:normal; color:var(--muted); }
+  .lane .track { position:relative; height:16px; background:#f3f5f8; border-radius:4px; }
+  .lane .bar { position:absolute; top:0; bottom:0; border-radius:4px; background:#9fb3c8; transition:width .15s linear; }
+  .lane.agent .bar { background:var(--accent); } .lane.group { margin-top:6px; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.06em; }
+  .log { font:12.5px/1.6 ui-monospace, Menlo, Consolas, monospace; background:#0f1720; color:#cfe3f7; border-radius:10px; padding:12px 14px; height:200px; overflow:auto; margin-top:10px; }
+  .log .t { color:#7b8fa3; }
+  .foot { color:var(--muted); font-size:13px; margin-top:34px; }
+  .modes { display:inline-flex; gap:4px; padding:4px; background:#e3e8ee; border-radius:10px; margin:4px 0 14px; }
+  .modes button { border:0; background:none; font:inherit; font-size:14px; font-weight:600; color:var(--muted); padding:7px 14px; border-radius:7px; cursor:pointer; }
+  .modes button.on { background:#fff; color:var(--ink); box-shadow:0 1px 2px rgba(0,0,0,.08); }
+  @media (max-width: 980px) { .io { grid-template-columns: 1fr; } .io .pin, .io .mid { position:static; } .io .pin .paper { max-height:none; } .io .mid { transform:rotate(90deg); margin:8px 0; } .doc { grid-template-columns:1fr; } .steps { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>Term sheet in <span class="arrow">→</span> first-draft contract out</h1>
+    <div class="modes" id="modes"></div>
+    <p><span id="from"></span> Every change is tracked in Word, with a comment wherever the reason needs explaining, and every point it can't settle is an open question for the lawyer. <span id="deal"></span></p>
+    <div class="nums" id="nums"></div>
+  </div>
+
+  <div class="io">
+    <div class="pin">
+      <div class="label"><span class="tag">IN</span>The agreed term sheet</div>
+      <div class="paper ts" id="termsheet"></div>
+    </div>
+    <div class="mid">→</div>
+    <div>
+      <div class="label"><span class="tag">OUT</span>The first draft, as it opens in Word</div>
+      <div class="toolbar">
+        <button class="btn ghost" id="toggle">Show the clean text</button>
+        <button class="btn" data-dl="draft">Download the Word file</button>
+        <span class="key"><ins>added</ins> <del>removed</del> · comments in the margin</span>
+      </div>
+      <div class="paper"><div class="doc" id="redline"></div></div>
+    </div>
+  </div>
+
+  <h2>Every term placed</h2>
+  <p class="sub">The engine also marks up the term sheet itself, so the lawyer can check coverage item by item. Click a clause to see it in the draft.</p>
+  <table id="coverage"><tr><th style="width:52%">Term sheet</th><th>Where the draft carries it</th></tr></table>
+  <div class="toolbar" style="margin-top:10px"><button class="btn ghost" data-dl="annotated">Download the annotated term sheet</button></div>
+
+  <h2>How it got there</h2>
+  <p class="sub" id="howlong"></p>
+  <div class="steps" id="steps"></div>
+  <div class="lanes" id="lanes"></div>
+  <div class="toolbar" style="margin-top:12px"><button class="btn ghost" id="play">Replay the run</button><span class="key">each bar is one agent; the clause agents all work at the same time</span></div>
+  <div class="log" id="log"></div>
+
+  <p class="foot" id="foot"></p>
+</div>
+<script>
+const ALL = /*DATA*/null;
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+let timer = null;
+function render(D) {
+clearInterval(timer);
+const st = D.stats;
+$("#from").textContent = D.from;
+$("#deal").textContent = `This example: ${D.title}.`;
+$("#nums").innerHTML = [[st.terms, "terms read from the term sheet"], [st.pieces, "clauses drafted in parallel"], [st.edits, "tracked changes"],
+  [st.open_points, st.open_points === 1 ? "open point for the lawyer" : "open points for the lawyer"], ["20–25 min", "to draft a full 150-page contract"]]
+  .map(([n, l]) => `<div class="num"><b>${n}</b><span>${l}</span></div>`).join("");
+
+// IN
+$("#termsheet").innerHTML = D.termsheet.map((p) => `<p class="${p.heading ? "h" : ""}">${esc(p.text)}</p>`).join("");
+
+// OUT
+function para(p, k) {
+  const body = p.segments.map(([kind, t]) => kind === "ins" ? `<ins>${esc(t)}</ins>` : kind === "del" ? `<del>${esc(t)}</del>` : esc(t)).join("");
+  const text = p.mark === "ins" ? `<ins>${body}</ins>` : p.mark === "del" ? `<del>${body}</del>` : body;
+  const pad = p.kind === "body" && p.level > 2 ? `style="padding-left:${(p.level - 2) * 24 + 6}px"` : "";
+  const cms = p.comments.map((c) => {
+    const open = /^open point/i.test(c), [why, quote] = c.split(" | term sheet: ");
+    return `<div class="cm ${open ? "pt" : ""}"><b>${open ? "Open point" : "Why"}</b>${esc(why.replace(/^Open point:\s*/i, ""))}${quote ? `<span class="q">Term sheet: ${esc(quote)}</span>` : ""}</div>`;
+  }).join("");
+  return `<div class="para ${p.kind}" id="p${k}" ${pad}><span class="n">${esc(p.n)}</span><span>${text}</span></div><div class="balloons">${cms}</div>`;
+}
+$("#redline").innerHTML = D.redline.map(para).join("");
+$("#toggle").onclick = (e) => { const on = $("#redline").classList.toggle("final"); e.target.textContent = on ? "Show the tracked changes" : "Show the clean text"; };
+
+// coverage
+function target(note) {
+  const clause = note.match(/Clause ([\dA-Za-z.()]+)/);
+  if (clause) return D.redline.findIndex((p) => p.full === clause[1]);
+  const term = note.match(/"([^"]+)"/);
+  if (term) return D.redline.findIndex((p) => p.segments.map((s) => s[1]).join("").includes(`"${term[1]}" means`));
+  if (/Cover page/.test(note)) return D.redline.findIndex((p) => p.segments.some((s) => s[0] === "ins"));
+  return -1;
+}
+$("#coverage").querySelectorAll("tr.cov").forEach((r) => r.remove());
+$("#coverage").insertAdjacentHTML("beforeend", D.termsheet.filter((p) => p.note).map((p) => {
+  const notes = p.note.split(/,\s*(?=Clause|")/).map((n) => { const k = target(n); return `<span class="place ${k < 0 ? "nc" : ""}" data-k="${k}">${esc(n)}</span>`; }).join("");
+  return `<tr class="cov"><td>${esc(p.text.length > 160 ? p.text.slice(0, 157) + "…" : p.text)}</td><td>${notes}</td></tr>`;
+}).join(""));
+document.querySelectorAll(".place").forEach((n) => (n.onclick = () => {
+  const k = +n.dataset.k; if (k < 0) return;
+  const el = $("#p" + k); el.scrollIntoView({ behavior: "smooth", block: "center" }); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+}));
+
+// how it got there
+const stages = [["Read", "each term sheet section, quotes checked"], ["Plan", `the ${D.base} split into clauses`], ["Draft", "one agent per clause, in parallel"],
+  ["Check", "the whole contract, faults sent back"], ["Write", "the Word redline and comments"]];
+$("#steps").innerHTML = stages.map(([b, s], i) => `<div class="step" id="st${i}"><b>${i + 1}. ${b}</b><span>${s}</span></div>`).join("");
+$("#howlong").textContent = "Every clause is drafted at the same time, by its own agent. Replay this run in about 15 seconds.";
+const stageOf = (t) => /^read |^record:/.test(t) ? 0 : /^planning/.test(t) ? 1 : /^drafting/.test(t) ? 2 : /whole contract/.test(t) ? 3 : 4;
+$("#play").onclick = () => {
+  clearInterval(timer); $("#log").innerHTML = ""; let i = 0, t = 0; const total = (D.timeline.at(-1) || { t: 1 }).t, speed = Math.max(total / 15, 1);
+  timer = setInterval(() => {
+    t += speed / 10;
+    drawLanes(t);
+    while (i < D.timeline.length && D.timeline[i].t <= t) {
+      const r = D.timeline[i++], s = stageOf(r.text);
+      $("#log").insertAdjacentHTML("beforeend", `<div>${esc(r.text)}</div>`);
+      $("#log").scrollTop = 1e9;
+      stages.forEach((_, k) => { const el = $("#st" + k); el.classList.toggle("on", k === s); el.classList.toggle("done", k < s); });
+    }
+    if (i >= D.timeline.length) { clearInterval(timer); drawLanes(total); stages.forEach((_, k) => { $("#st" + k).classList.remove("on"); $("#st" + k).classList.add("done"); }); }
+  }, 100);
+};
+$("#log").innerHTML = D.timeline.map((r) => `<div>${esc(r.text)}</div>`).join("");
+
+// the agents as lanes: one bar from each agent's start to its finish, read from the run's own log
+const total = Math.max(1, (D.timeline.at(-1) || { t: 1 }).t);
+const lanes = [];
+const firstAt = (re) => (D.timeline.find((r) => re.test(r.text)) || {}).t;
+const lastAt = (re) => { const hit = D.timeline.filter((r) => re.test(r.text)); return hit.length ? hit.at(-1).t : undefined; };
+lanes.push({ who: "Term sheet readers", note: "one per section", a: firstAt(/^read /), b: firstAt(/^record:/) });
+lanes.push({ who: "Planner", note: `splits the ${D.base} into clauses`, a: firstAt(/^planning the form$/), b: firstAt(/^planning the form —/) });
+const pieces = {};
+D.timeline.forEach((r) => { const m = r.text.match(/^drafting (.+?)( — .*)?$/); if (!m) return; (pieces[m[1]] ||= {})[m[2] ? "b" : "a"] = r.t; });
+const agentLanes = Object.entries(pieces).filter(([, p]) => p.a !== undefined && p.b !== undefined).map(([who, p]) => ({ who, a: p.a, b: p.b, agent: true }));
+const checkA = firstAt(/whole contract/), writeA = firstAt(/^writing the document/);
+if (checkA !== undefined) lanes.push({ who: "Whole-contract check", note: "faults sent back", a: checkA, b: writeA ?? checkA + 1 });
+lanes.push({ who: "Writer", note: "the Word redline", a: writeA, b: lastAt(/^draft:|^annotated:/) });
+const rows = [lanes[0], lanes[1], { group: `${agentLanes.length} drafting agents, one per clause` }, ...agentLanes, ...lanes.slice(2)];
+$("#lanes").innerHTML = rows.map((l, k) => l.group ? `<div class="lane group"><span>${esc(l.group)}</span><span></span></div>` :
+  `<div class="lane ${l.agent ? "agent" : ""}"><span class="who" title="${esc(l.who)}">${esc(l.who)}${l.note ? ` <i>· ${esc(l.note)}</i>` : ""}</span><span class="track"><span class="bar" id="ln${k}" style="left:${(100 * (l.a ?? 0)) / total}%;width:${(100 * Math.max(0.6, (l.b ?? l.a ?? 0) - (l.a ?? 0))) / total}%"></span></span></div>`).join("");
+function drawLanes(now) {
+  rows.forEach((l, k) => { if (l.group || l.a === undefined) return; const el = $("#ln" + k); const end = Math.min(now, l.b ?? l.a); el.style.width = `${(100 * Math.max(0, end - l.a)) / total}%`; });
+}
+
+// downloads (a host may block them; everything else works without)
+document.querySelectorAll("[data-dl]").forEach((b) => (b.onclick = () => {
+  const bytes = Uint8Array.from(atob(D.files[b.dataset.dl]), (c) => c.charCodeAt(0));
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([bytes], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+  a.download = b.dataset.dl === "draft" ? "draft-contract.docx" : "annotated-term-sheet.docx"; a.click();
+}));
+$("#foot").textContent = `A replay of a real run on invented documents, built ${ALL.built}. A first draft for lawyer review, never a finished contract.`;
+}
+$("#modes").innerHTML = ALL.order.map((k) => `<button data-mode="${k}">${esc(ALL.runs[k].label)}</button>`).join("");
+function choose(k) { document.querySelectorAll("#modes button").forEach((b) => b.classList.toggle("on", b.dataset.mode === k)); $("#redline").classList.remove("final"); $("#toggle").textContent = "Show the clean text"; render(ALL.runs[k]); }
+document.querySelectorAll("#modes button").forEach((b) => (b.onclick = () => choose(b.dataset.mode)));
+choose(ALL.order[0]);
+</script>
+</body>
+</html>

@@ -1,0 +1,667 @@
+[
+ {
+  "id": "nda-term-now",
+  "question": "What is the term of the Northwind and Bluefield NDA now?",
+  "answer": "The NDA’s current term is **four years from 1 March 2026**, so it runs to **1 March 2030**. The 1 September 2026 amendment replaced the original three-year term in clause 4.1; it left the other terms unchanged. [Amendment No 1 to the NDA.pdf, clauses 2.1 and 3.1, p1](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1) [Mutual Non-Disclosure Agreement.pdf, date and clause 4.1, pp1–2](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2)\n\nThe confidentiality obligations in clause 2 survive termination for **five years**. [Mutual Non-Disclosure Agreement.pdf, clause 4.2, p2](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2)\n\n**Sources**\n- [Mutual Non-Disclosure Agreement.pdf](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2) — original term and survival clause.\n- [Amendment No 1 to the NDA.pdf](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1) — extended term and continuation of other terms.",
+  "steps": [
+   "documents(folder='Northwind - Bluefield NDA')",
+   "find_clauses(folder='Northwind - Bluefield NDA', query='term duration expiry extension survival confidentiality NDA')",
+   "read_pages(document='Amendment No 1 to the NDA.pdf', first=1)",
+   "read_pages(document='Mutual Non-Disclosure Agreement.pdf', first=1, last=2)"
+  ],
+  "citations": [
+   {
+    "label": "Amendment No 1 to the NDA.pdf, clauses 2.1 and 3.1, p1",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf, date and clause 4.1, pp1–2",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf, clause 4.2, p2",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Amendment No 1 to the NDA.pdf",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   }
+  ],
+  "seconds": 7,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "nda-term-original",
+  "question": "What term did the Northwind and Bluefield NDA originally have?",
+  "answer": "The NDA originally ran for **three years from 1 March 2026**. Its confidentiality obligations survived termination for a further five years. [Mutual Non-Disclosure Agreement.pdf, clauses 4.1–4.2, p2](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2) The 1 September 2026 amendment later replaced the three-year term with four years, leaving the other terms unchanged. [Amendment No 1 to the NDA.pdf, clauses 2.1 and 3.1, p1](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1)\n\n**Sources**\n- [Mutual Non-Disclosure Agreement.pdf](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2) — original term and survival period.\n- [Amendment No 1 to the NDA.pdf](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1) — later extension.",
+  "steps": [
+   "documents(folder='Northwind - Bluefield NDA')",
+   "find_clauses(folder='Northwind - Bluefield NDA', query='original NDA term duration expiry confidentiality obligations survival')",
+   "read_pages(document='Mutual Non-Disclosure Agreement.pdf', first=1, last=2)",
+   "read_pages(document='Amendment No 1 to the NDA.pdf', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf, clauses 4.1–4.2, p2",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Amendment No 1 to the NDA.pdf, clauses 2.1 and 3.1, p1",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Amendment No 1 to the NDA.pdf",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   }
+  ],
+  "seconds": 7,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "nda-survival",
+  "question": "For how long do the NDA's confidentiality obligations survive termination?",
+  "answer": "The NDA’s confidentiality obligations survive termination for **five years**. [Mutual Non-Disclosure Agreement.pdf, clause 4.2, p2](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2) The 1 September 2026 amendment changes the agreement’s term, but leaves the five-year survival provision unchanged. [Amendment No 1 to the NDA.pdf, clauses 2.1–3.1, p1](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1)\n\n**Sources**\n- [Mutual Non-Disclosure Agreement.pdf](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2) — five-year survival provision; dated 1 March 2026.\n- [Amendment No 1 to the NDA.pdf](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1) — changes the term only; dated 1 September 2026.",
+  "steps": [
+   "documents(folder='Northwind - Bluefield NDA')",
+   "read_pages(document='Amendment No 1 to the NDA.pdf', first=1)",
+   "read_pages(document='Mutual Non-Disclosure Agreement.pdf', first=1, last=2)"
+  ],
+  "citations": [
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf, clause 4.2, p2",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Amendment No 1 to the NDA.pdf, clauses 2.1–3.1, p1",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Amendment No 1 to the NDA.pdf",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   }
+  ],
+  "seconds": 7,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "nda-no-cap",
+  "question": "Is there a liability cap in the Northwind and Bluefield NDA?",
+  "answer": "No. The 1 March 2026 NDA contains no liability cap, and the 1 September 2026 amendment changes only its term; all other terms remain in effect. [Mutual Non-Disclosure Agreement.pdf, pp1–2](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=1) [Amendment No 1 to the NDA.pdf, clauses 2–3, p1](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1)\n\n**Sources**\n- [Mutual Non-Disclosure Agreement.pdf](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=1) — original NDA.\n- [Amendment No 1 to the NDA.pdf](library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1) — term amendment and continuation of other terms.",
+  "steps": [
+   "documents(folder='Northwind - Bluefield NDA')",
+   "read_pages(document='Mutual Non-Disclosure Agreement.pdf', first=1, last=2)",
+   "read_pages(document='Amendment No 1 to the NDA.pdf', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf, pp1–2",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Amendment No 1 to the NDA.pdf, clauses 2–3, p1",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Amendment No 1 to the NDA.pdf",
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Amendment%20No%201%20to%20the%20NDA.pdf#page=1"
+   }
+  ],
+  "seconds": 6,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "lease-rent-now",
+  "question": "What rent is payable now under the Harbour Street lease?",
+  "answer": "The rent payable now is **£56,000 per year**, effective 1 April 2025 under the [Rent Review Memorandum 2025.pdf, clause 1.2, p1](library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1). It remains payable in **equal quarterly payments in advance**—£14,000 each quarter—under the [Lease of Unit 4 Harbour Street.pdf, clause 3.1, p1](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1). The [Side Letter on Rent.docx, clause 1.1, p1](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) waived rent only for the first three months of the term.\n\n**Sources**\n- [Lease of Unit 4 Harbour Street.pdf](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1) — payment frequency.\n- [Rent Review Memorandum 2025.pdf](library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1) — current annual rent.\n- [Side Letter on Rent.docx](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) — initial rent-free period.",
+  "steps": [
+   "documents(folder='Harbour Street Lease')",
+   "read_pages(document='Lease of Unit 4 Harbour Street.pdf', first=1, last=2)",
+   "read_pages(document='Rent Review Memorandum 2025.pdf', first=1)",
+   "read_pages(document='Side Letter on Rent.docx', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Rent Review Memorandum 2025.pdf, clause 1.2, p1",
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf, clause 3.1, p1",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1"
+   },
+   {
+    "label": "Side Letter on Rent.docx, clause 1.1, p1",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1"
+   },
+   {
+    "label": "Rent Review Memorandum 2025.pdf",
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1"
+   },
+   {
+    "label": "Side Letter on Rent.docx",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   }
+  ],
+  "seconds": 10,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "lease-deposit",
+  "question": "What deposit did the tenant pay under the Harbour Street lease?",
+  "answer": "The tenant was required to pay a **£12,500 deposit** on the date of the lease, 1 April 2023. The lease states the obligation; it does not itself confirm receipt. [Lease of Unit 4 Harbour Street.pdf, clause 4.1, p2](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2) The later side letter and rent review memorandum change rent terms only, leaving the deposit clause unchanged. [Side Letter on Rent.docx, clauses 1–2, p1](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) [Rent Review Memorandum 2025.pdf, clauses 1–2, p1](library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1)\n\n**Sources**\n- [Lease of Unit 4 Harbour Street.pdf](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2) — deposit obligation.\n- [Side Letter on Rent.docx](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) — rent-free period; lease otherwise continues.\n- [Rent Review Memorandum 2025.pdf](library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1) — rent review; lease otherwise continues.",
+  "steps": [
+   "documents(folder='Harbour Street Lease')",
+   "read_pages(document='Lease of Unit 4 Harbour Street.pdf', first=1, last=2)",
+   "read_pages(document='Rent Review Memorandum 2025.pdf', first=1)",
+   "read_pages(document='Side Letter on Rent.docx', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf, clause 4.1, p2",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2"
+   },
+   {
+    "label": "Side Letter on Rent.docx, clauses 1–2, p1",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   },
+   {
+    "label": "Rent Review Memorandum 2025.pdf, clauses 1–2, p1",
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2"
+   },
+   {
+    "label": "Side Letter on Rent.docx",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   },
+   {
+    "label": "Rent Review Memorandum 2025.pdf",
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1"
+   }
+  ],
+  "seconds": 6,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "lease-break",
+  "question": "When can the tenant break the Harbour Street lease, and with how much notice?",
+  "answer": "The tenant can break the lease **on 1 April 2028** by giving the landlord **at least six months’ written notice**. [Lease of Unit 4 Harbour Street.pdf, clause 5.1, p2](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2) The later side letter and rent review memorandum change rent terms only; each says the lease otherwise continues. [Side Letter on Rent.docx, clauses 1–2, p1](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) [Rent Review Memorandum 2025.pdf, clauses 1–2, p1](library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1)\n\n**Sources**\n- [Lease of Unit 4 Harbour Street.pdf](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2) — break date and notice requirement (1 April 2023 lease).\n- [Side Letter on Rent.docx](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) — rent-free period only (15 April 2023).\n- [Rent Review Memorandum 2025.pdf](library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1) — rent review only (1 April 2025).",
+  "steps": [
+   "documents(folder='Harbour Street Lease')",
+   "read_pages(document='Lease of Unit 4 Harbour Street.pdf', first=1, last=2)",
+   "read_pages(document='Rent Review Memorandum 2025.pdf', first=1)",
+   "read_pages(document='Side Letter on Rent.docx', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf, clause 5.1, p2",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2"
+   },
+   {
+    "label": "Side Letter on Rent.docx, clauses 1–2, p1",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   },
+   {
+    "label": "Rent Review Memorandum 2025.pdf, clauses 1–2, p1",
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2"
+   },
+   {
+    "label": "Side Letter on Rent.docx",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   },
+   {
+    "label": "Rent Review Memorandum 2025.pdf",
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1"
+   }
+  ],
+  "seconds": 8,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "lease-rent-free",
+  "question": "Is there a rent-free period under the Harbour Street lease?",
+  "answer": "Yes. A side letter dated 15 April 2023 provides that **no rent was payable for the first three months of the lease term**, which began on 1 April 2023. It varied the lease’s rent clause only to that extent. [Side Letter on Rent.docx, clauses 1.1–2.1, p1](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) [Lease of Unit 4 Harbour Street.pdf, clauses 2.1 and 3.1, p1](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1)\n\n### Sources\n- [Lease of Unit 4 Harbour Street.pdf](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1) — term commencement and original rent clause.\n- [Side Letter on Rent.docx](library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1) — three-month rent-free period.\n- [Rent Review Memorandum 2025.pdf](library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1) — later rent review; the lease continues, varied only as stated there.",
+  "steps": [
+   "documents(folder='Harbour Street Lease')",
+   "read_pages(document='Lease of Unit 4 Harbour Street.pdf', first=1, last=2)",
+   "read_pages(document='Side Letter on Rent.docx', first=1)",
+   "read_pages(document='Rent Review Memorandum 2025.pdf', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Side Letter on Rent.docx, clauses 1.1–2.1, p1",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf, clauses 2.1 and 3.1, p1",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=1"
+   },
+   {
+    "label": "Side Letter on Rent.docx",
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Side%20Letter%20on%20Rent.docx#page=1"
+   },
+   {
+    "label": "Rent Review Memorandum 2025.pdf",
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1,
+    "link": "library/Harbour%20Street%20Lease/Rent%20Review%20Memorandum%202025.pdf#page=1"
+   }
+  ],
+  "seconds": 7,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "acme-2024-in-force",
+  "question": "Is the January 2024 Acme services agreement still in force?",
+  "answer": "No. The January 2024 services agreement **terminated on 1 March 2025** and ceased to have effect. The parties entered into a new services agreement that day; a later deed novated that **2025 agreement**, not the 2024 one. [Termination Agreement.pdf, clauses 1.1 and 2.1, p1](library/Acme%20Services/Termination%20Agreement.pdf#page=1) [Deed of Novation.pdf, clauses 1.1–1.2, p1](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1)\n\n**Sources**\n- [Services Agreement 2024.pdf, p1](library/Acme%20Services/Services%20Agreement%202024.pdf#page=1) — identifies the 1 January 2024 agreement.\n- [Termination Agreement.pdf, p1](library/Acme%20Services/Termination%20Agreement.pdf#page=1) — ends it on 1 March 2025.\n- [New Services Agreement.pdf, pp1–2](library/Acme%20Services/New%20Services%20Agreement.pdf#page=1) — the replacement agreement dated 1 March 2025.\n- [Deed of Novation.pdf, p1](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1) — novates the 2025 agreement.",
+  "steps": [
+   "documents(folder='Acme Services')",
+   "read_pages(document='Services Agreement 2024.pdf', first=1)",
+   "read_pages(document='Termination Agreement.pdf', first=1)",
+   "read_pages(document='New Services Agreement.pdf', first=1, last=2)",
+   "read_pages(document='Deed of Novation.pdf', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Termination Agreement.pdf, clauses 1.1 and 2.1, p1",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Deed of Novation.pdf, clauses 1.1–1.2, p1",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   },
+   {
+    "label": "Services Agreement 2024.pdf, p1",
+    "path": "Acme Services/Services Agreement 2024.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Services%20Agreement%202024.pdf#page=1"
+   },
+   {
+    "label": "Termination Agreement.pdf, p1",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "New Services Agreement.pdf, pp1–2",
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/New%20Services%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Deed of Novation.pdf, p1",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   }
+  ],
+  "seconds": 5,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "acme-fee-now",
+  "question": "What monthly fee does Bluefield pay for Acme's services now?",
+  "answer": "Bluefield’s current fee is **£9,500 per month**, set by the [New Services Agreement, clause 2.1, p1](library/Acme%20Services/New%20Services%20Agreement.pdf#page=1) dated 1 March 2025. The earlier agreement ended that day, and the 1 June 2025 novation changed the supplier to Acme Holdings GmbH while leaving the new agreement’s terms in force. [Termination Agreement, clause 1.1, p1](library/Acme%20Services/Termination%20Agreement.pdf#page=1) · [Deed of Novation, clauses 1.1–1.2, p1](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1)\n\n**Sources**\n- [New Services Agreement.pdf](library/Acme%20Services/New%20Services%20Agreement.pdf#page=1) — current monthly fee.\n- [Termination Agreement.pdf](library/Acme%20Services/Termination%20Agreement.pdf#page=1) — end of the 2024 agreement.\n- [Deed of Novation.pdf](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1) — change of supplier; terms continue.",
+  "steps": [
+   "documents(folder='Acme Services')",
+   "read_pages(document='Deed of Novation.pdf', first=1)",
+   "read_pages(document='New Services Agreement.pdf', first=1, last=2)",
+   "read_pages(document='Services Agreement 2024.pdf', first=1)",
+   "read_pages(document='Termination Agreement.pdf', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "New Services Agreement, clause 2.1, p1",
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/New%20Services%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Termination Agreement, clause 1.1, p1",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Deed of Novation, clauses 1.1–1.2, p1",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   },
+   {
+    "label": "New Services Agreement.pdf",
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/New%20Services%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Termination Agreement.pdf",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Deed of Novation.pdf",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   }
+  ],
+  "seconds": 7,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "acme-supplier-now",
+  "question": "Who is the supplier under the Acme services agreement now?",
+  "answer": "**Acme Holdings GmbH** is the supplier now. The 1 March 2025 Services Agreement originally named Acme Services Limited as supplier, but the Deed of Novation dated 1 June 2025 transferred that agreement to Acme Holdings GmbH with effect from that date; the agreement otherwise continues on its terms. [New Services Agreement.pdf, p1](library/Acme%20Services/New%20Services%20Agreement.pdf#page=1) [Deed of Novation.pdf, clause 1, p1](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1)\n\n### Sources\n- [New Services Agreement.pdf](library/Acme%20Services/New%20Services%20Agreement.pdf#page=1) — original supplier under the 2025 agreement.\n- [Deed of Novation.pdf](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1) — transfer to the current supplier.\n- [Termination Agreement.pdf](library/Acme%20Services/Termination%20Agreement.pdf#page=1) — ended the 2024 agreement on 1 March 2025.\n- [Services Agreement 2024.pdf](library/Acme%20Services/Services%20Agreement%202024.pdf#page=1) — identifies the earlier agreement and its supplier.",
+  "steps": [
+   "documents(folder='Acme Services')",
+   "read_pages(document='Deed of Novation.pdf', first=1)",
+   "read_pages(document='New Services Agreement.pdf', first=1, last=2)",
+   "read_pages(document='Services Agreement 2024.pdf', first=1)",
+   "read_pages(document='Termination Agreement.pdf', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "New Services Agreement.pdf, p1",
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/New%20Services%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Deed of Novation.pdf, clause 1, p1",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   },
+   {
+    "label": "New Services Agreement.pdf",
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/New%20Services%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Deed of Novation.pdf",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   },
+   {
+    "label": "Termination Agreement.pdf",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Services Agreement 2024.pdf",
+    "path": "Acme Services/Services Agreement 2024.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Services%20Agreement%202024.pdf#page=1"
+   }
+  ],
+  "seconds": 5,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "acme-unpaid-fees",
+  "question": "When must unpaid fees under the terminated 2024 Acme agreement be paid?",
+  "answer": "Unpaid fees under the 2024 Acme agreement must be paid **within 30 days of 1 March 2025**, the date it was terminated. [Termination Agreement.pdf, clauses 1.1–1.2, p1](library/Acme%20Services/Termination%20Agreement.pdf#page=1)\n\n**Sources**\n- [Termination Agreement.pdf](library/Acme%20Services/Termination%20Agreement.pdf#page=1) — termination date and deadline for unpaid fees.",
+  "steps": [
+   "documents(folder='Acme Services')",
+   "read_pages(document='Services Agreement 2024.pdf', first=1)",
+   "read_pages(document='Termination Agreement.pdf', first=1)",
+   "read_pages(document='New Services Agreement.pdf', first=1, last=2)",
+   "read_pages(document='Deed of Novation.pdf', first=1)"
+  ],
+  "citations": [
+   {
+    "label": "Termination Agreement.pdf, clauses 1.1–1.2, p1",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "Termination Agreement.pdf",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   }
+  ],
+  "seconds": 5,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ },
+ {
+  "id": "german-law",
+  "question": "Across the whole library, which agreements are governed by German law?",
+  "answer": "**One agreement is governed by German law:** [New Services Agreement.pdf, clause 4.1, p2](library/Acme%20Services/New%20Services%20Agreement.pdf#page=2), dated 1 March 2025. The later [Deed of Novation.pdf, clauses 1.1–1.2, p1](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1), dated 1 June 2025, changes the supplier but continues the agreement on its existing terms.\n\nThe agreements in the other two folders are governed by the laws of England and Wales: the [Lease of Unit 4 Harbour Street.pdf, clause 6.1, p2](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2) and the [Mutual Non-Disclosure Agreement.pdf, clause 5.1, p2](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2). The earlier [Services Agreement 2024.pdf, clause 3.1, p1](library/Acme%20Services/Services%20Agreement%202024.pdf#page=1) was also governed by the laws of England and Wales; it was ended by the [Termination Agreement.pdf, clause 1.1, p1](library/Acme%20Services/Termination%20Agreement.pdf#page=1).\n\n**Sources**\n- [New Services Agreement.pdf](library/Acme%20Services/New%20Services%20Agreement.pdf#page=2) — German governing-law clause.\n- [Deed of Novation.pdf](library/Acme%20Services/Deed%20of%20Novation.pdf#page=1) — supplier change and continuation of terms.\n- [Lease of Unit 4 Harbour Street.pdf](library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2) — governing-law clause.\n- [Mutual Non-Disclosure Agreement.pdf](library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2) — governing-law clause.\n- [Services Agreement 2024.pdf](library/Acme%20Services/Services%20Agreement%202024.pdf#page=1) — governing-law clause.\n- [Termination Agreement.pdf](library/Acme%20Services/Termination%20Agreement.pdf#page=1) — termination of the 2024 agreement.",
+  "steps": [
+   "deep_search(question='Across the whole library, which agreements are governed by German law? Identify governing-law clause, document date, and whether later documents change governing law or end the agreement.')"
+  ],
+  "citations": [
+   {
+    "label": "New Services Agreement.pdf, clause 4.1, p2",
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 2,
+    "link": "library/Acme%20Services/New%20Services%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Deed of Novation.pdf, clauses 1.1–1.2, p1",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf, clause 6.1, p2",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf, clause 5.1, p2",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Services Agreement 2024.pdf, clause 3.1, p1",
+    "path": "Acme Services/Services Agreement 2024.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Services%20Agreement%202024.pdf#page=1"
+   },
+   {
+    "label": "Termination Agreement.pdf, clause 1.1, p1",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   },
+   {
+    "label": "New Services Agreement.pdf",
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 2,
+    "link": "library/Acme%20Services/New%20Services%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Deed of Novation.pdf",
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Deed%20of%20Novation.pdf#page=1"
+   },
+   {
+    "label": "Lease of Unit 4 Harbour Street.pdf",
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2,
+    "link": "library/Harbour%20Street%20Lease/Lease%20of%20Unit%204%20Harbour%20Street.pdf#page=2"
+   },
+   {
+    "label": "Mutual Non-Disclosure Agreement.pdf",
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2,
+    "link": "library/Northwind%20-%20Bluefield%20NDA/Mutual%20Non-Disclosure%20Agreement.pdf#page=2"
+   },
+   {
+    "label": "Services Agreement 2024.pdf",
+    "path": "Acme Services/Services Agreement 2024.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Services%20Agreement%202024.pdf#page=1"
+   },
+   {
+    "label": "Termination Agreement.pdf",
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1,
+    "link": "library/Acme%20Services/Termination%20Agreement.pdf#page=1"
+   }
+  ],
+  "seconds": 23,
+  "right": true,
+  "missing_values": [],
+  "missing_citations": [],
+  "should_not_say": []
+ }
+]

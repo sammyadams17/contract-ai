@@ -1,0 +1,25 @@
+14:03:14  read examples/nda/termsheet.docx: 1,208 characters; reading each section
+14:03:34  record: 11 sections, 13 terms (0 quotes not found verbatim), 0 gaps -> sample-run/record.json
+14:03:35  planning the form
+14:03:54  planning the form — 9 pieces
+14:03:54  drafting Definitions: "Affiliate" to "Representatives" (4 definitions)
+14:03:54  drafting Confidentiality Obligations
+14:03:54  drafting Exceptions
+14:03:54  drafting Cover page
+14:03:54  drafting Remedies
+14:03:54  drafting Term and Termination
+14:03:54  drafting Governing Law and Jurisdiction
+14:03:54  drafting Return or Destruction
+14:03:54  drafting Execution page
+14:04:20  drafting Term and Termination — 2 edits
+14:04:20  drafting Exceptions — 0 edits
+14:04:20  drafting Governing Law and Jurisdiction — 1 edits
+14:04:22  drafting Remedies — 0 edits
+14:04:24  drafting Return or Destruction — 1 edits
+14:04:27  drafting Definitions: "Affiliate" to "Representatives" (4 definitions) — 5 edits
+14:04:27  drafting Execution page — 2 edits
+14:04:31  drafting Confidentiality Obligations — 2 edits
+14:04:37  drafting Cover page — 4 edits
+14:04:37  writing the document
+14:04:37  draft: 9 pieces, 17 edits, 0 open points -> sample-run/draft.docx
+14:04:46  annotated: 22 items, 11 noted -> sample-run/annotated-termsheet.docx

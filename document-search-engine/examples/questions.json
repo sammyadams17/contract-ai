@@ -1,0 +1,211 @@
+[
+ {
+  "id": "nda-term-now",
+  "question": "What is the term of the Northwind and Bluefield NDA now?",
+  "values": [
+   [
+    "four (4) years",
+    "four years",
+    "4 years"
+   ]
+  ],
+  "cites": [
+   {
+    "path": "Northwind - Bluefield NDA/Amendment No 1 to the NDA.pdf",
+    "page": 1
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "nda-term-original",
+  "question": "What term did the Northwind and Bluefield NDA originally have?",
+  "values": [
+   [
+    "three (3) years",
+    "three years",
+    "3 years",
+    "three-year"
+   ]
+  ],
+  "cites": [
+   {
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "nda-survival",
+  "question": "For how long do the NDA's confidentiality obligations survive termination?",
+  "values": [
+   [
+    "five (5) years",
+    "five years",
+    "5 years",
+    "five-year"
+   ]
+  ],
+  "cites": [
+   {
+    "path": "Northwind - Bluefield NDA/Mutual Non-Disclosure Agreement.pdf",
+    "page": 2
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "nda-no-cap",
+  "question": "Is there a liability cap in the Northwind and Bluefield NDA?",
+  "values": [
+   "no"
+  ],
+  "cites": [],
+  "not": []
+ },
+ {
+  "id": "lease-rent-now",
+  "question": "What rent is payable now under the Harbour Street lease?",
+  "values": [
+   "£56,000"
+  ],
+  "cites": [
+   {
+    "path": "Harbour Street Lease/Rent Review Memorandum 2025.pdf",
+    "page": 1
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "lease-deposit",
+  "question": "What deposit did the tenant pay under the Harbour Street lease?",
+  "values": [
+   "£12,500"
+  ],
+  "cites": [
+   {
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "lease-break",
+  "question": "When can the tenant break the Harbour Street lease, and with how much notice?",
+  "values": [
+   "1 April 2028",
+   [
+    "six (6) months",
+    "six months",
+    "6 months"
+   ]
+  ],
+  "cites": [
+   {
+    "path": "Harbour Street Lease/Lease of Unit 4 Harbour Street.pdf",
+    "page": 2
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "lease-rent-free",
+  "question": "Is there a rent-free period under the Harbour Street lease?",
+  "values": [
+   [
+    "three (3) months",
+    "three months",
+    "3 months"
+   ]
+  ],
+  "cites": [
+   {
+    "path": "Harbour Street Lease/Side Letter on Rent.docx",
+    "page": 1
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "acme-2024-in-force",
+  "question": "Is the January 2024 Acme services agreement still in force?",
+  "values": [
+   "no",
+   "1 March 2025"
+  ],
+  "cites": [
+   {
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "acme-fee-now",
+  "question": "What monthly fee does Bluefield pay for Acme's services now?",
+  "values": [
+   "£9,500"
+  ],
+  "cites": [
+   {
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 1
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "acme-supplier-now",
+  "question": "Who is the supplier under the Acme services agreement now?",
+  "values": [
+   "Acme Holdings GmbH"
+  ],
+  "cites": [
+   {
+    "path": "Acme Services/Deed of Novation.pdf",
+    "page": 1
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "acme-unpaid-fees",
+  "question": "When must unpaid fees under the terminated 2024 Acme agreement be paid?",
+  "values": [
+   [
+    "thirty (30) days",
+    "thirty days",
+    "30 days"
+   ]
+  ],
+  "cites": [
+   {
+    "path": "Acme Services/Termination Agreement.pdf",
+    "page": 1
+   }
+  ],
+  "not": []
+ },
+ {
+  "id": "german-law",
+  "question": "Across the whole library, which agreements are governed by German law?",
+  "values": [
+   "Services Agreement",
+   [
+    "Germany",
+    "German law"
+   ]
+  ],
+  "cites": [
+   {
+    "path": "Acme Services/New Services Agreement.pdf",
+    "page": 2
+   }
+  ],
+  "not": []
+ }
+]

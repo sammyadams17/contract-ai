@@ -1,0 +1,440 @@
+[
+ {
+  "title": "MUTUAL NON-DISCLOSURE AGREEMENT",
+  "text": "# MUTUAL NON-DISCLOSURE AGREEMENT\nTHIS AGREEMENT is dated 12 March 2025\nBETWEEN:\n(1) Northwind Analytics Limited, a company incorporated in England and Wales with company number 01234567 whose registered office is at 10 Example Street, Exampletown XX1 1XX (the \"First Party\"); and\n(2) Saltmarsh Data Limited, a company incorporated in Ireland with company number 654321 whose registered office is at 4 Sample Quay, Dublin 2 (the \"Second Party\").",
+  "section": "Cover page",
+  "rules": [
+   "- The parties are named as the term sheet names them, each with its company number and\n  registered office where the term sheet gives them; a missing number is `[\u2022]` with one open\n  point.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   1
+  ],
+  "client_particulars": true,
+  "term_homes": [
+   [
+    1,
+    "Northwind Analytics Limited as First Party, company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX",
+    "MUTUAL NON-DISCLOSURE AGREEMENT"
+   ],
+   [
+    1,
+    "Bluefield Robotics GmbH as Second Party, registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin",
+    "MUTUAL NON-DISCLOSURE AGREEMENT"
+   ],
+   [
+    1,
+    "Northwind Analytics Limited as executing party",
+    "Execution page"
+   ],
+   [
+    1,
+    "Bluefield Robotics GmbH as executing party",
+    "Execution page"
+   ]
+  ]
+ },
+ {
+  "title": "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)",
+  "text": "# Definitions\n    1. In this Agreement:\n\"Affiliate\" means, in relation to a party, any entity that controls, is controlled by or is under common control with that party;\n\"Confidential Information\" means all information of whatever nature disclosed by one party to the other in connection with the Purpose, whether before or after the date of this Agreement, including:\n        1. business plans, customer lists and pricing; and\n        1. technical information, know-how and source code;\n\"Purpose\" means evaluating a possible data-sharing arrangement for retail demand forecasting; and\n\"Representatives\" means a party's Affiliates and its and their officers, employees and professional advisers.",
+  "section": "Definitions",
+  "rules": [
+   "- \"Purpose\" is the term sheet's purpose, in its words, never widened.\n- \"Confidential Information\" keeps the template's list; a category the term sheet adds is one\n  more limb, in the template's style.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   2,
+   3,
+   5,
+   9
+  ],
+  "client_particulars": false,
+  "term_homes": [
+   [
+    2,
+    "Purpose: evaluating a possible joint development of warehouse picking software",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ],
+   [
+    3,
+    "Product roadmaps included in Confidential Information",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ],
+   [
+    3,
+    "Test data included in Confidential Information",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ],
+   [
+    5,
+    "Permission to disclose to actual or prospective funders on the same terms",
+    "Confidentiality Obligations"
+   ],
+   [
+    9,
+    "Heads of terms are confidential",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ]
+  ]
+ },
+ {
+  "title": "Confidentiality Obligations",
+  "text": "# Confidentiality Obligations\n    1. Each party shall keep the other party's Confidential Information confidential and shall use it only for the Purpose.\n    1. Each party may disclose the other party's Confidential Information to its Representatives who need to know it for the Purpose, provided that it procures that they keep it confidential on the terms of this Agreement.\n    1. Each party shall protect the other party's Confidential Information with at least the same degree of care it uses for its own confidential information.",
+  "section": "Confidentiality Obligations",
+  "rules": [
+   "- The standard of care is the template's unless the term sheet sets another.\n- Disclosure to advisers and affiliates follows the template; a further class of permitted\n  recipient the term sheet allows is one more limb.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   2,
+   3,
+   4,
+   5,
+   9
+  ],
+  "client_particulars": false,
+  "term_homes": [
+   [
+    2,
+    "Purpose: evaluating a possible joint development of warehouse picking software",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ],
+   [
+    3,
+    "Product roadmaps included in Confidential Information",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ],
+   [
+    3,
+    "Test data included in Confidential Information",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ],
+   [
+    5,
+    "Permission to disclose to actual or prospective funders on the same terms",
+    "Confidentiality Obligations"
+   ],
+   [
+    9,
+    "Heads of terms are confidential",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ]
+  ]
+ },
+ {
+  "title": "Exceptions",
+  "text": "# Exceptions\n    1. The obligations in Clause 2 do not apply to information which:\n        1. is or becomes public other than through a breach of this Agreement;\n        1. was lawfully in the recipient's possession before disclosure; or\n        1. is required to be disclosed by law or by any regulatory authority.",
+  "section": "Exceptions",
+  "rules": [
+   "- The template's exceptions stand. An exception the term sheet adds is one more limb; an\n  exception it removes is struck with an open point, since a narrower set of exceptions is a\n  departure from the house position.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [],
+  "client_particulars": false,
+  "term_homes": []
+ },
+ {
+  "title": "Term and Termination",
+  "text": "# Term and Termination\n    1. This Agreement continues for two (2) years from its date.\n    1. The obligations in Clause 2 survive termination for three (3) years.",
+  "section": "Term and Termination",
+  "rules": [
+   "- The term is the term sheet's. The confidentiality obligations survive for the period the term\n  sheet gives; where it gives none, the template's survival period stands.\n\nRead also by: Return or Destruction",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   6,
+   7
+  ],
+  "client_particulars": false,
+  "term_homes": [
+   [
+    6,
+    "Agreement lasts three (3) years",
+    "Term and Termination"
+   ],
+   [
+    6,
+    "Confidentiality obligations survive five (5) years after agreement ends",
+    "Term and Termination"
+   ],
+   [
+    7,
+    "Legal-required copy retention permitted",
+    "Return or Destruction"
+   ],
+   [
+    7,
+    "Retained copies remain confidential",
+    "Return or Destruction"
+   ]
+  ]
+ },
+ {
+  "title": "Return or Destruction",
+  "text": "# Return or Destruction\n    1. On the other party's written request, each party shall promptly return or destroy the other party's Confidential Information.",
+  "section": "Return or Destruction",
+  "rules": [
+   "- The template's clause stands unless the term sheet sets a period or allows retention for\n  legal or regulatory purposes, which is written as one more sentence.",
+   "- The term is the term sheet's. The confidentiality obligations survive for the period the term\n  sheet gives; where it gives none, the template's survival period stands.\n\nRead also by: Return or Destruction",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   7
+  ],
+  "client_particulars": false,
+  "term_homes": [
+   [
+    7,
+    "Legal-required copy retention permitted",
+    "Return or Destruction"
+   ],
+   [
+    7,
+    "Retained copies remain confidential",
+    "Return or Destruction"
+   ]
+  ]
+ },
+ {
+  "title": "Non-Solicitation",
+  "text": "# Non-Solicitation\n    1. Neither party shall, during the term of this Agreement and for six (6) months after it ends, solicit for employment any employee of the other party involved in the Purpose.",
+  "section": "General",
+  "rules": [
+   "- Every term the term sheet sets is written into the contract, once, in the place the base\n  document keeps that subject. A term the base has no place for is written where a lawyer would\n  add it: the clause closest in subject. A term that cannot be written (a value the term sheet\n  leaves open) is a `[\u2022]` with one open point, never left out.\n- The base document's words stand wherever the term sheet and these rules do not reach. A first\n  draft does not improve the house wording, however much better it would read.\n- The term sheet's housekeeping is never written into the contract: that it is not binding, its\n  own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals\n  still to be obtained, and who pays for the drafting.\n- A term defined in the base is used by its defined name. Where the term sheet calls the thing\n  by another name, the base's name is written. A new defined term is added only where the\n  contract uses it more than once, and it goes into the definitions in alphabetical order.\n- A party is named in full, as the term sheet names it, the first time the contract names it,\n  with its company number and registered office where the base asks for them; after that, by its\n  defined name.\n- Figures are written as the term sheet writes them, words and numerals both where the base\n  writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing\n  is computed, converted or rounded.\n- Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.\n- A bracketed option in the base is resolved: the alternative this deal takes is kept without\n  its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left\n  `[\u2022]` with one open point.\n- A clause, schedule or definition that exists only for a kind of deal this is not is struck\n  whole, with every reference to it. One that this deal does not need but the base gives as the\n  house position stands.\n- An open point says why before it asks: the term sheet's words, or the gap, then the question\n  for the lawyer. One open point per question, on the paragraph it is about.\n- Where the term sheet departs from a position the client's template states as settled\n  (unbracketed words), the term sheet's term is written and one open point names the template\n  position it departs from, so the lawyer can see the departure. A bracketed value or option is\n  a blank the deal fills, never a house position: filling it from the term sheet raises no open\n  point.\n- When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing\n  law, concessions) are that deal's, never a house position: each is replaced by this deal's with\n  no open point. A term the old deal added that this term sheet does not give (an extra category,\n  a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the\n  new deal wants it.\n- Where the term sheet contradicts itself, neither version is chosen: the contract carries the\n  first, and one open point quotes both.\n- Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's\n  stand, with no open point.\n- A cross-reference written in new text names the clause by its number and heading as the\n  contract now numbers it. The base's own cross-references are never retyped.\n\n\n# Mutual NDA playbook (example client)\n\nAn example of a client playbook built on the general one. Each section after `## General (NDA)`\nis named after a clause or schedule of the client's template, and its rules reach only the piece\nthe planner gives that section. \"Read also by:\" names other sections whose pieces must read this\none too.\n\n\n- The agreement is mutual unless the term sheet says one party discloses only. Where it is\n  one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation\n  binds only the recipient, and the obligations that would bind the discloser are struck.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   2,
+   6
+  ],
+  "client_particulars": false,
+  "term_homes": [
+   [
+    2,
+    "Purpose: evaluating a possible joint development of warehouse picking software",
+    "Definitions: \"Affiliate\" to \"Representatives\" (4 definitions)"
+   ],
+   [
+    6,
+    "Agreement lasts three (3) years",
+    "Term and Termination"
+   ],
+   [
+    6,
+    "Confidentiality obligations survive five (5) years after agreement ends",
+    "Term and Termination"
+   ]
+  ]
+ },
+ {
+  "title": "Remedies",
+  "text": "# Remedies\n    1. Each party acknowledges that damages alone may not be an adequate remedy for a breach of this Agreement and that the other party is entitled to seek injunctive relief.",
+  "section": "Remedies",
+  "rules": [
+   "- The template's injunctive relief clause stands. A liability cap or indemnity the term sheet\n  asks for is written here, with one open point, since the template has none.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [],
+  "client_particulars": false,
+  "term_homes": []
+ },
+ {
+  "title": "Governing Law and Jurisdiction",
+  "text": "# Governing Law and Jurisdiction\n    1. This Agreement is governed by the laws of Ireland and the courts of Ireland have exclusive jurisdiction.",
+  "section": "Governing Law and Jurisdiction",
+  "rules": [
+   "- As the General rule: the term sheet's where it states them.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   8
+  ],
+  "client_particulars": false,
+  "term_homes": []
+ },
+ {
+  "title": "Execution page",
+  "text": "# Execution page\nSigned for and on behalf of the First Party: A. Example, Director\nSigned for and on behalf of the Second Party: B. Sample, Director",
+  "section": "Execution page",
+  "rules": [
+   "- The signatories are the parties as defined. A signatory's name or title the term sheet does\n  not give is left as the template's blank.",
+   "Every term the term sheet sets is written into the contract, once, in the place the base document keeps that subject. A term the base has no place for is written where a lawyer would add it: the clause closest in subject. A term that cannot be written (a value the term sheet leaves open) is a `[\u2022]` with one open point, never left out.",
+   "The base document's words stand wherever the term sheet and these rules do not reach. A first draft does not improve the house wording, however much better it would read.",
+   "The term sheet's housekeeping is never written into the contract: that it is not binding, its own confidentiality, its expiry, its exclusivity period, the documentation timetable, approvals still to be obtained, and who pays for the drafting.",
+   "A term defined in the base is used by its defined name. Where the term sheet calls the thing by another name, the base's name is written. A new defined term is added only where the contract uses it more than once, and it goes into the definitions in alphabetical order.",
+   "A party is named in full, as the term sheet names it, the first time the contract names it, with its company number and registered office where the base asks for them; after that, by its defined name.",
+   "Figures are written as the term sheet writes them, words and numerals both where the base writes both (\"thirty (30) days\"). A currency is written as the base writes currencies. Nothing is computed, converted or rounded.",
+   "Dates the term sheet gives are written as dates; a date to be fixed at signing stays `[\u2022]`.",
+   "A bracketed option in the base is resolved: the alternative this deal takes is kept without its brackets, the others struck whole. A bracketed blank is filled from the term sheet or left `[\u2022]` with one open point.",
+   "A clause, schedule or definition that exists only for a kind of deal this is not is struck whole, with every reference to it. One that this deal does not need but the base gives as the house position stands.",
+   "An open point says why before it asks: the term sheet's words, or the gap, then the question for the lawyer. One open point per question, on the paragraph it is about.",
+   "Where the term sheet departs from a position the client's template states as settled (unbracketed words), the term sheet's term is written and one open point names the template position it departs from, so the lawyer can see the departure. A bracketed value or option is a blank the deal fills, never a house position: filling it from the term sheet raises no open point.",
+   "When the base is a precedent, its own deal's terms (parties, purpose, figures, periods, governing law, concessions) are that deal's, never a house position: each is replaced by this deal's with no open point. A term the old deal added that this term sheet does not give (an extra category, a right, a carve-out) is struck, with one open point naming it, so the lawyer can keep it if the new deal wants it.",
+   "Where the term sheet contradicts itself, neither version is chosen: the contract carries the first, and one open point quotes both.",
+   "Governing law and jurisdiction are the term sheet's where it states them; otherwise the base's stand, with no open point.",
+   "A cross-reference written in new text names the clause by its number and heading as the contract now numbers it. The base's own cross-references are never retyped.",
+   "The agreement is mutual unless the term sheet says one party discloses only. Where it is one-way, \"Disclosing Party\" and \"Receiving Party\" replace \"each party\" wherever the obligation binds only the recipient, and the obligations that would bind the discloser are struck."
+  ],
+  "termsheet_sections": [
+   1
+  ],
+  "client_particulars": true,
+  "term_homes": [
+   [
+    1,
+    "Northwind Analytics Limited as First Party, company number 01234567, registered office 10 Example Street, Exampletown XX1 1XX",
+    "MUTUAL NON-DISCLOSURE AGREEMENT"
+   ],
+   [
+    1,
+    "Bluefield Robotics GmbH as Second Party, registration number HRB 987654, registered office Musterstrasse 5, 10115 Berlin",
+    "MUTUAL NON-DISCLOSURE AGREEMENT"
+   ],
+   [
+    1,
+    "Northwind Analytics Limited as executing party",
+    "Execution page"
+   ],
+   [
+    1,
+    "Bluefield Robotics GmbH as executing party",
+    "Execution page"
+   ]
+  ]
+ }
+]
